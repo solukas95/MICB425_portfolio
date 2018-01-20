@@ -1,7 +1,314 @@
 ---
 title: "MICB425_portfolio"
 author: "Lukas Sonderegger 49057870"
-date: "19 Januar 2018"
-output: html_document
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document:
+    toc: true  
+    toc_depth: 3
 ---
 
+# Module 01
+
+
+## Module 01 portfolio check
+
+* Installation check
+    + Completion status:
+    + Comments:
+* Portfolio repo setup
+    + Completion status: 
+    + Comments:
+* RMarkdown Pretty PDF Challenge
+    + Completion status:
+    + Comments:
+* Evidence worksheet_01
+    + Completion status:
+    + Comments:
+* Evidence worksheet_02
+    + Completion status:
+    + Comments:
+* Evidence worksheet_03
+    + Completion status:
+    + Comments:
+* Problem Set_01
+    + Completion status:
+    + Comments:
+* Problem Set_02
+    + Completion status:
+    + Comments:
+* Writing assessment_01
+    + Completion status:
+    + Comments:
+* Additional Readings
+    + Completion status:
+    + Comments  
+
+
+## Data science Friday
+
+### Installation check
+
+![Screenshot_GIT](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\Assignment 1\Screenshot_GIT.png)
+
+![Screenshot_GitHub](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\Assignment 1\Screenshot_GitHub.png)
+
+![Screenshot_Rstudio](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\Assignment 1\Screenshot_Rstudio.png)
+
+
+
+### Portfolio repo setup
+
+cd ~/documents   
+mkdir MICB425_portfolio   
+touch ID.txt   
+git init   git add .   
+git commit -m"first commit"   
+git remote add origin https://remote_repository_URL   
+git remote -v   
+git push -u origin master 
+
+### RMarkdown pretty PDF challenge
+
+
+
+---
+title: "Pretty_html"
+author: "Lukas Sonderegger 49057870"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document:
+  toc: true
+---
+# R Markdown PDF Challenge
+
+The following assignment is an exercise for the reproduction of this .html document using the RStudio and RMarkdown tools we've shown you in class. Hopefully by the end of this, you won't feel at all the way this poor PhD student does. We're here to help, and when it comes to R, the internet is a really valuable resource. This open-source program has all kinds of tutorials online.
+
+
+![http://phdcomics.com/ Comic posted 1-17-2018](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\assignment 3\phd011718s.png) 
+
+## Challenge Goals
+
+The goal of this R Markdown html challenge is to give you an opportunity to play with a bunch of different RMarkdown formatting. Consider it a chance to flex your RMarkdown muscles. Your goal is to write your own RMarkdown that rebuilds this html document as close to the original as possible. So, yes, this means you get to copy my irreverant tone exactly in your own Markdowns. It's a little window into my psyche. Enjoy =)
+
+**hint: go to the [PhD Comics website](http://phdcomics.com/) to see if you can find the image above**  
+*If you can't find that exact image, just find a comparable image from the PhD Comics website and include it in your markdown*
+
+### Here's a header!
+
+Let's be honest, this header is a little arbitrary. But show me that you can reproduce headers with different levels please. This is a level 3 header, for your reference (you can most easily tell this from the table of contents)
+
+#### Another header, now with maths
+
+Perhaps you're already really confused by the whole markdown thing. Maybe you're so confused that you've forgotton how to add. Never fear! ~~A calculator~~ R is here:
+
+``` {r}
+1231521+12341556280987
+```
+### Table Time
+
+Or maybe, after you've added those numbers, you feel like it's about time for a table!
+I'm going to leave all the guts of the coding here so you can see how libraries (R packages) are loaded into R (more on that later). It's not terribly pretty, but it hints at how R works and how you will use it in the future. The summary function used below is a nice data exploration function that you may use in the ^future^.
+
+```{r}
+library(knitr)
+kable(summary(cars),caption="I made this table with kable in the knitr package library")
+```
+
+And now you've almost finished your first RMarkdown! Feeling excited? We are! In fact, we're so excited that maybe we need a big finale eh? Here's ours! Include a fun gif of your choice!
+
+![](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\assignment 3\polar_gif.gif)  
+
+
+## Origins and Earth Systems
+### Evidence worksheet 01 
+
+
+[Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+#### Learning objectives
+Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
+
+#### General questions
+* What were the main questions being asked?
+
+The main questions were:  
+- To determine the number of prokaryotes in different habitats  
+- Which habitats are the most important ones; contribute the most to the abundance of microbes  
+- The amount of carbon stored in prokaryotes  
+- Amounts of other nutrients (N, P) in prokaryotes  
+- Turnover rates of the microbes in different habitats    
+    - Which habitats are the most productive ones    
+    - Estimate prokaryotic diversity (higher turnover leads to more mutations, diversity)
+
+* What were the primary methodological approaches used?
+
+-Sampling of prokaryotes from different habitats, (top 200m of open ocean, ocean below 200m, different soils, subsurface in various dephts etc), quantification of cells in these samples.    
+-Estimation and extrapolation of cell abundances in habitats that could not be sampled.  
+-Research of data obtained from previous studies for estimations of cell abundance.  
+-Extrapolation, estimations, assumptions, mathematical formulas to calculate cell numbers, nutrient contents etc.  
+Examples of approaches:  
+-Open ocean: average cell density (cells/ml water), cell volume.-> estimate number of cells  
+-Subsurface: few samples taken, depth profile generated, extrapolation to 4km depth.   
+ 	2nd approach: porosity of terrestrial surface 3%, 0.016% of pores occupied. -> use cell volume to calculate cell number  
+	3rd: groundwater data for estimation  
+-Soil: estimations from direct cell counts from different soils
+
+* Summarize the main results or findings.
+
+There are three habitats that mainly contribute to earth's prokaryotic abundance:  
+-Open ocean (1.2x 10^29^ cells)   
+-Soil (2.6x 10^29^ cells)  
+-Subsurfaces ( terrestrial, below 8m and marine below 10cm) (0.25-2.5x 10^30^ cells)  
+
+Further important habitats but with minor contributions to total cell number:  
+	- Animals, Leaves, Air  
+
+->Total number of prokaryotes estimated to 4-6x 10^30^ cells
+
+Total prokaryotic carbon: 350-550 Pg (1Pg= 10^15 g)  
+-> 60-100% of total carbon of plants
+
+Total prokaryotic nutrients (N,P) are circa 10 fold more than in plants. (N: 85-130 Pg, P: 9-14 Pg)
+
+Turnover times in different habitats:  
+- Ocean above 200m: 6-25 days  
+- Ocean below 200m: 300 days  
+- Soil: 2.5 years  
+- Subsurface: 1-2x 10^3^ years (likely inaccurate, too high   number, indicates that current understanding of subsurface prokaryotes is incomplete)
+
+Ocean above 200m has highest cellular productivity, highest number of cells per time produced. (8.2*10^29 cells/year)  
+	-> highest cellular productivity leads to most mutation events, diversity
+
+Total cellular production rate on earth: 1.7x 10^30^ cells per year
+
+-> Large population size and turnover rates generate a huge potential for microbial diversity.-> leads to the opportunity of emergence of new cycles, pathways  
+-> Number of prokaryotic species may be greatly underestimated
+
+* Do new questions arise from the results?
+
+The extremly long turnover rate for subsurface prokaryotes indicates that this habitat is not yet understood very well and needs to be further investigated
+
+Determination of prokaryotic diversity:  
+	- Huge prokaryotic populations with fast turnover rates (especially in open ocean) have the potential for a very large genetic diversity due to many mutation events. Prokaryotes have a much higher potential for simultaneous mutations than eukaryots and should therefore be differently treated in phylogenetic analyses. The number of prokaryotic species may be much higher than currently estimated through a DNA melting temperature method.  
+-> The diversity of prokaryotic species must be further investigated to understand the earths communities and its contribution to biogechemical processes.
+
+-Paper is from 1980.-> How exact are the obtained numbers, estimations? Are there better technologies, more samples available to repeat calculations (especially for subsurface samples)?  
+	-Has abundance and diversity of microbes changed since 1980? 
+
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+The assumptions and methods of the calculations were often not very well explained or completely absent. As most of the results in this paper are based on assumptions and estimations, it would have been useful if they were more transparent in their calculations. 
+Therefore, also some more detailed discussion about the precision of the obtained numbers with error estimates or confidence intervals for example would have been usefull.
+
+ 
+
+
+
+### Problem set 01
+#### Learning objectives: 
+Describe the numerical abundance of microbial life in relation to the ecology and biogeochemistry of Earth systems.
+
+#### Specific questions:
+* What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
+
+Open ocean: Total 1.2x 10^29^ cells  
+	-Top 200m: 3.6x 10^28^  
+	-Below 200m (incl. 10 cm of sediment): 8.2x 10^28 ^
+
+Soil: 2.6x 10^29^ cells
+
+Subsurfaces: ~3.8x 10^30^ cells (uncertain, estimation)
+
+* What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
+
+Upper 200m: 3.6x 10^28^ cells  
+->2.9x 10^27^ autotrophs (cyanobacteria)  
+8.06% are autotrophs (cyanobacteria)
+
+These 8% of autotrophic bacteria have to assimilate enough carbon to sustain the requirement of additional carbon from the 92% heterotrhopic cells.
+
+This ratio means that 8% of assimilating autotrophs can sustain the need of additional carbon from outside the oceanic carbon cycle for the 92% of heterotrophes. Therefore, there is much more carbon cycling within the ocean than new carbon is fixed from the atmosphere to the ocean or that carbon is 'lost' from the ocean to the atmosphere.
+
+* What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text? 
+
+Autotroph: CO2 as carbon source used.  
+Heterotroph: not CO2 as carbon source.-> organic carbon needed.  
+Lithotroph: anorganic electron donor like NH3, H2S
+
+* Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
+
+4km below the surface.  
+At 4km below surface, the temperature is about 125 degrees celsius, which is the temperature-limit for prokaryotes to live.
+
+
+* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?
+
+Up to 77km    
+Limiting factor: cold temperature (up to -90 degrees)  
+- Maybe also a problem: very low pressure in high altitude
+
+* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth’s biosphere measured in km?  
+
+From -4km to +77km -> Total of 81km
+
+* How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
+
+For annual cellular production, population size and growth rate must be taken into account.
+
+-> Population size x Turnover rate (years)= Annual cellular production  
+->Ocean above 200m:  
+	Pop size = 3.6x 10^28^  
+	Turnover time, days= 16 -> Turnover rate = 365/16= 22.81 per year    
+-> 3.6x 10^28^x 22.81 = 8.2x 10^29^ cells per year
+
+->in soil:     
+	pop. size= 2.6x 10^29^    
+	Turnover rate = 0.4 per year (= 365/900)  
+-> 2.6x 10^29^ x 0.4= 10^29^ cells per year
+
+* What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+
+Net productivity in ocean: 51 Pg/year  
+prokaryotic carbon in ocean: 0.7-2.9 Pg
+
+85% of net productivity consumed in upper 200m.-> 51Pg x 0.85= 43.35 Pg  
+(efficiency of net productivity =0.2)  
+43.35 Pg / 0.7 Pg = 61 per year turnover rate max  
+43.35 Pg / 2.9 = 15 per year turnover rate min  
+
+-> the net productivity has to be four times the amount of the carbon of prokariots to support their turnover.  
+- turnover rate can not exceed 15-60 per year.  
+Relationship varies because different fractions of the primary productivity reach different depths in different habitats.
+( in soil, carbon gets burried much slower than carbon can sink in the ocean.- in ocean more carbon available when closer to the surface because more sunlight->more autotrophs present, more photosynthesis possible. 
+
+* How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
+
+* Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
+
+Genetic diversity and adaptive potential might be much higher than previously expected. The number of prokaryotic species might be much higher than estimatad with DNA melting temperature method. The high diversity leads to the potential to adapt to changing environments and new metabolic pathways and cycles can emerge. Through the large number of prokaryotic cells and their high diversity, the microbes even have the potential to alter global nutrient cycles.
+
+Microbes can not only diversify by point mutations, but also by bigger rearrangements in the genome (inversion, duplication, deletion etc). Else, genes (plasmids) could be transferred during conjugation, transformation or transduction, which allows fast adaptation through horizontal gene-transfer.
+
+* What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
+
+The enormous abundance of prokaryotes and the high turnover rates lead to a huge diversity. New mutations leading to new metabolic functions, pathways and cycles occur continously. Therefore, the metabolic potential is not only unimaginably high, but can also expand constantly to previously unknown emerging properties. Thus, microbes have the potential to significantly participate in and alter important biogeochemical cycles.
+
+
+### Module 01 references
+Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
+
+An example for Whitman and Wiebe (1998) has been included below.
+
+Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+
+
+
+
+### test
+
+Row names | Data 1 | Data 2
+--------- | ------ | ------
+Row 1 | 0 | 1
+Row 2 | 1 | 0

@@ -10,7 +10,7 @@ output:
 ---
 # R Markdown PDF Challenge
 
-The following assignment is an exercise for the reproduction of this .html document using the RStudio and RMarkdown tools we’ve shown you in class. Hopefully by the end of this, you won’t feel at all the way this poor PhD student does. We’re here to help, and when it comes to R, the internet is a really valuable resource. This open-source program has all kinds of tutorials online.
+The following assignment is an exercise for the reproduction of this .html document using the RStudio and RMarkdown tools we've shown you in class. Hopefully by the end of this, you won't feel at all the way this poor PhD student does. We're here to help, and when it comes to R, the internet is a really valuable resource. This open-source program has all kinds of tutorials online.  
 
 
 ![http://phdcomics.com/ Comic posted 1-17-2018](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\assignment 3\phd011718s.png) 
@@ -35,7 +35,7 @@ Perhaps you're already really confused by the whole markdown thing. Maybe you're
 ```
 ### Table Time
 
-Or maybe, after you've added those numbers, you feel like it's about time for a table!
+Or maybe, after you've added those numbers, you feel like it's about time for a table!  
 I'm going to leave all the guts of the coding here so you can see how libraries (R packages) are loaded into R (more on that later). It's not terribly pretty, but it hints at how R works and how you will use it in the future. The summary function used below is a nice data exploration function that you may use in the ^future^.
 
 ```{r}

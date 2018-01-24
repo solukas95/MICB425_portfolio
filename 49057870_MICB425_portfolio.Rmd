@@ -107,7 +107,7 @@ Perhaps you're already really confused by the whole markdown thing. Maybe you're
 ```
 ### Table Time
 
-Or maybe, after you've added those numbers, you feel like it's about time for a table!
+Or maybe, after you've added those numbers, you feel like it's about time for a table!  
 I'm going to leave all the guts of the coding here so you can see how libraries (R packages) are loaded into R (more on that later). It's not terribly pretty, but it hints at how R works and how you will use it in the future. The summary function used below is a nice data exploration function that you may use in the ^future^.
 
 ```{r}
@@ -214,7 +214,7 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 
 Open ocean: Total 1.2x 10^29^ cells  
 	-Top 200m: 3.6x 10^28^  
-	-Below 200m (incl. 10 cm of sediment): 8.2x 10^28 ^
+	-Below 200m (incl. 10 cm of sediment): 8.2x 10^28^  
 
 Soil: 2.6x 10^29^ cells
 
@@ -232,25 +232,27 @@ This ratio means that 8% of assimilating autotrophs can sustain the need of addi
 
 * What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text? 
 
-Autotroph: CO2 as carbon source used.  
+Autotroph: CO2 as carbon source used. Fix inorganic carbon to biomass.   
 Heterotroph: not CO2 as carbon source.-> organic carbon needed.  
-Lithotroph: anorganic electron donor like NH3, H2S
+Lithotroph: inorganic electron donor like NH3, H2S
 
 * Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
 
-4km below the surface.  
+4km below the surface. (4 km below terrestrial surface or marine sediments)  
 At 4km below surface, the temperature is about 125 degrees celsius, which is the temperature-limit for prokaryotes to live.
-
+In terrestrial habitat, temperature rises about 22 degrees celsius per km.
 
 * Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?
 
-Up to 77km    
-Limiting factor: cold temperature (up to -90 degrees)  
-- Maybe also a problem: very low pressure in high altitude
+Up to 77km (But not really living cells up there, only transient state, spores...)  
+More realistic: 20km  
+Limiting factor: cold temperature (up to -90 degrees), radiation, low pressure, no nutrients   
+-> Mnt. Everest: 8.8km + 20km on top-> 28.8 km
 
-* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth’s biosphere measured in km?  
+* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
 
-From -4km to +77km -> Total of 81km
+Mariana trench: ~10.9 km deep, from this point, microbes can live up to 4km further down below marine sediment-surface.  
+-> from 20km on top of Mnt. Everest to 4km below Mariana trench   -> total of 44 km
 
 * How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
 
@@ -258,31 +260,43 @@ For annual cellular production, population size and growth rate must be taken in
 
 -> Population size x Turnover rate (years)= Annual cellular production  
 ->Ocean above 200m:  
-	Pop size = 3.6x 10^28^  
-	Turnover time, days= 16 -> Turnover rate = 365/16= 22.81 per year    
--> 3.6x 10^28^x 22.81 = 8.2x 10^29^ cells per year
+	Pop size = 3.6x 10^28^ cells  
+	Turnover time in days: 16 -> Turnover rate = 365/16= 22.81 per year    
+-> 3.6x 10^28^ Cells x 22.81 Turnovers per year = 8.2x 10^29^ cells per year
 
 ->in soil:     
-	pop. size= 2.6x 10^29^    
+	pop. size= 2.6x 10^29^ cells    
 	Turnover rate = 0.4 per year (= 365/900)  
 -> 2.6x 10^29^ x 0.4= 10^29^ cells per year
 
 * What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
 
-Net productivity in ocean: 51 Pg/year  
-prokaryotic carbon in ocean: 0.7-2.9 Pg
+Net productivity in ocean: 51 Pg/year   
+Prokaryotic carbon in ocean: 0.7-2.9 Pg  
+Carbon in one cell: 10 fg/Cell -> 20 x 10^-30^ pg/cell    
+3.6*10^28^ cells x 20x 10^-30^ pg/cell= 0.72 Pg of carbon in marine heterotrophes   
+Carbon efficiency: 20%. But factor used in paper: 4 (!?)  
+4 x 0.72 Pg = 2.88 Pg/year   
+85% of net productivity consumed in upper 200m.-> 51Pg x 0.85= 43.35 Pg  
+43 pg/yr / 2.88 pg/yr = 14.9 Turnovers per year -> Turnover every 24.5 days.
+
 
 85% of net productivity consumed in upper 200m.-> 51Pg x 0.85= 43.35 Pg  
-(efficiency of net productivity =0.2)  
+  
 43.35 Pg / 0.7 Pg = 61 per year turnover rate max  
 43.35 Pg / 2.9 = 15 per year turnover rate min  
 
--> the net productivity has to be four times the amount of the carbon of prokariots to support their turnover.  
+-> the net productivity has to be four times (not 5?!) the amount of the carbon of prokariots to support their turnover.  
 - turnover rate can not exceed 15-60 per year.  
 Relationship varies because different fractions of the primary productivity reach different depths in different habitats.
 ( in soil, carbon gets burried much slower than carbon can sink in the ocean.- in ocean more carbon available when closer to the surface because more sunlight->more autotrophs present, more photosynthesis possible. 
 
 * How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
+
+(4 x 10^-7^ mutations per gene per generation)^4^ = 2.56 x 10^-26^ mutation rate for 4 simoultanous mutations per gene per generation    
+3.6 x 10^28^cells x 22.8 turnovers per year = 8.2 x 10^29^ cells per year    
+8.2 x 10^29^cells per year x 2.56 x 10^-26^ mutations per generation = 2.1 x 10^4^  times per year => four simoultanous mutations every 0.4 hours. 
+
 
 * Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
 
@@ -296,9 +310,7 @@ The enormous abundance of prokaryotes and the high turnover rates lead to a huge
 
 
 ### Module 01 references
-Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
 
-An example for Whitman and Wiebe (1998) has been included below.
 
 Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
@@ -306,9 +318,3 @@ Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Pr
 
 
 
-### test
-
-Row names | Data 1 | Data 2
---------- | ------ | ------
-Row 1 | 0 | 1
-Row 2 | 1 | 0

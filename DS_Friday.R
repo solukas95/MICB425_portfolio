@@ -75,3 +75,8 @@ select(N2O_uM, N2O_nM)
 
 
 #Convert all varaibles that are in nM to uM. output a table showing only the original nM and converted uM variables
+metadata %>% 
+  select(matches("nM"))
+metadata %>%
+  mutate(N2O_uM = N2O_nM/1000 , Std_N2O_uM = Std_N2O_nM/1000 , CH4_uM = CH4_nM/1000 , Std_CH4_uM = Std_CH4_nM/1000) %>%
+  select(N2O_nM, N2O_uM, Std_N2O_nM, Std_N2O_uM, CH4_nM, CH4_uM, Std_CH4_nM, Std_CH4_uM)

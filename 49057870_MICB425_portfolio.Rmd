@@ -316,5 +316,138 @@ Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Pr
 
 
 
+### Evidence worksheet 02
+
+####Key events in the evolution of Earth systems  
+Hadean:
+4.6 Ga: Formation of earth  
+4.5 Ga: Moon formed by impact of inner planet. Induced spin, tilt of Earth, leading to day/ night cyles and seasons.  
+4.4 Ga: Oldest zircoins, formation of Oceans, atmosphere
+4.3-3.8 Ga: Heavy bombardment of Earth
+4.1 Ga: First evidence for life: Carbon isotopes preserved  
+4.0 Ga: Plate subduction  
+- Oldest rock: acasta gneiss in Canada. -> Silica-rich rocks
+- water Oceans needed to provide cool, hydrated lithospheric plates to create rocks  
+- CO2 as greenhouse gas, CO2 rich ocean.-> reacts with basalt to form carbonates.-> CO2 decreases, atmosphere cools down-> surface temperature glacial
+-methane as greenhouse gas
+
+Archaean:
+3.8 Ga: Oldest sedimentary rocks,  
+Carbon isotopes: Evidence for life in sedimentary rocks in greenland
+Photosynthesis possible, Rubisco 
+-Cyanobacteria
+3.5 Ga: Evidence for photosynthesis in microfossils, stromatolites, fossil biofilms   -rubisco
+-Sun weak, methane as greenhouse gas, warming shield  
+3 Ga: Glaciation because of oxygen production, less methanogen production.- less greenhouse effect  
+-Life on land: great oxydation event-> glaciation  
+-Large carbon isotope signals for carbon fixation 
+-well developed stromatolites in ontario, south africa
+
+2.7 Ga:
+-well developed stromatolites
+-direct evidence for life: molecular fossils of biological lipids from western australia.
+-hydrocarbon biomarkers characteristic of cyanobacteria imply oxygenic photosynthesis
+-Steranes as evidence for presence of eukaryotes
+
+2.2 Ga: 
+-Complex eukaryotes, oxygen level increased sharply -Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
+-Cellular cybernetic switch between mitochondria, chloroplasts. - may control link between photosynthesis and N fixation.
+
+Proterozoic:  
+-1.8 Ga: Eukaryotes, algae, symbiosis. 
+- changing carbon cycle, several global glaciations.- snowball Earth
+-macroscopic life forms
+
+
+
+-540 Ma: End of precambrian: cambrian explosion- emergence, diversification of animals. -expansion of mulitcellular evolution
+
+phanerozoic: 
+400 Ma: devonian explosion: land plants, gigantism -strong increased oxygenation of atmosphere
+-Carboniferous period: fish, cephalopods, corals
+
+300 Ma: Permian extinction (95% of species)
+-followed by rapid speciation, rise of dinosaurs
+-Formation of pangea, dry, harsh climate
+
+-66 Ma: Cretaceous-tertiary extinction event
+- dramatic global warming
+-diversification of mammals, increasing size of mammals
+-dominating forest
+
+23 Ma: neogene; Ice age
+
+6 Ma: First hominins
+
+2.6 Ma: Quaternary period
+
+200'000 BP: Homo sapiens appears
+
+
+
+
+
+
+
+#### Dominant physical/ chemical characteristics of Earth systems
+
+4.6 Ga:  
+-High CO2 pressure; heat radiated to space
+-500 degrees Celsius  
+-CO2 tied up in carbonate minerals (limestone)
+-Ocean filled with water
+-Water as greenhouse gas, as vapour high in atmosphere, phtolysed into hydrogen and oxygen, hydrogen lost to space
+
+4.5 - 4 Ga: 
+-100 degrees Celsius  
+-Many meteorite impacts, heating up earth to >100 degrees. -> ocean vapourized
+-Seawater chemistry controlled by volcanism
+-Ice house, CO2 rising as greenhouse gas
+
+3.8 Ga: 
+-Meteorite bombardment halted.-> seawater chemistry stabilized
+-sulphur reduction
+-methanogenesis: greenhouse gas, heating up earth (Earth would have been glacial without methane shield because of weaker sun)  
+
+
+3.5 Ga: 
+-Earth still anoxic
+-Hydrothermal, volcanogenic habitats
+-Microbes spread on coastal fringes, deeper water, deep hydrothermal vents  
+
+2.7 Ga:
+-well developed stromatolites
+
+2.2 Ga:
+-oxygen level sharply increased.-> complex eukaryotes
+-Rocks recognized as red beds-> indicate oxidation
+-Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
+
+### Module 1 assay
+"Microbial life can easily live without us; we, however, cannot survive without the global
+catalysis and environmental transformations it provides."  
+
+Ever since the emergence of humans, we have been interacting with microbes. We live in symbiosis with microbes in many different aspects, which rises the important question whether we could survive without them. Microbial life emerged about 4.1 billion years before the first humans developed, which proofs that microbes can easily live without us. In contrast, confirming that humans cannot survive without the global catalysis provided by microbes, is much more challenging. Several aspects need to be considered in order to answer the question whether humans rely on the presence of microbes. Firstly, after their emergence, the microbes rapidly spread all over the earth and rose to incredible numbers of individuals. Secondly, fast reproduction and constant turnover of the cells leads to massive requirements of nutrients and thereby promotes the global turnover of these nutrients. The fast reproduction of microbes further generates an enormous genetic diversity through mutations, which allows the microbes to constantly adapt present pathways or even generate new metabolic processes. Through this extremely high abundance and diversity, microbes developed a massive potential not only to actively participate in, but also to significantly alter important biogeochemical cycles, which can be shown by several examples covered in this assay. Lastly, this potential for global catalysis leads to important, microbially driven environmental transformations on Earth, creating an inhabitable atmosphere. This not only allowed for the emergence of more complex organisms and the human species, but will also be important for human survival in the future.
+
+Microbes have a massive potential to impact global cycles because of their sheer number of cells present. They account for by far the biggest part of the number of organisms alive on earth and arguably also the greatest part of nutrients stored in living beings. The number of prokaryotes living on earth could be obtained by cell counts of probes sampled from several different habitats. Subsequent projection and extrapolation for habitats not available for sampling led to an estimation of 4-6*1030 cells present (Whitman, Coleman, and Wiebe 1998). Considering average values of nutrient contents per cell, leads to the conclusion that microbes totally contain 60-100% of the amount of carbon stored in plants. The fraction of nitrogen and phosphorus stored in microbes is even higher, with about ten times more of these elements stored in microbes than in plants. These numbers show, that through their enormous abundance and capacity, microbes technically have the potential to provide important global catalysis.  
+     
+In addition to the huge number of microbial cells, their fast turnover rates generate an even higher potential of the microbes to significantly catalyze and transform global cycles. An average turnover rate of 22 turnovers per year leads to about 8.2*1029 heterotrophic cells produced every year, just in the upper 200 meters of the ocean. Therefore, the vast amounts of cells continuously being produced further explains their impact on global cycles as their constant metabolism leads to massive requirements and turnover of nutrients. The constant turnover of prokaryotes additionally offers the opportunity to generate an enormous genetic diversity through billions of mutation events. The large genetic variation leading to continuous adaptation through evolution enables the bacteria to constantly generate new metabolic pathways and cycles. In summary, the fast microbial reproduction accounts for high nutrient requirement, global circulation of these nutrients and generation of metabolic diversity through evolving cells. This allows for the conclusion, that microbes have the potential to significantly transform the environment and even catalyze global cycles in such a powerful way that humans become dependent on their presence on Earth.  
+     
+The enormous abundance, turnover and diversity provides a huge potential for the microbes to actively contribute to the composition of Earth’s properties. These contributions thereby are of such importance that humans would not be able to survive without microbes providing them, which can be shown by several examples. Firstly, marine microorganisms are responsible for the generation of nearly all of the oxygen present in the atmosphere (Kasting and Siefert 2002). The oxygen produced by plants only contributes to a small fraction of atmospheric oxygen because most of the O2 produced by plants is used up again by their own respiratory processes and upon decay of dead plant material. Therefore, the oxygen produced by microbes is substantial for human respiration and hence, also existence. Second, Earth’s redox state depends mostly on microbial life and therefore is an emergent property of their existence (Falkowski, Fenchel, and Delong 2008). This means, the global fluxes of some of the most important elements (H, C, N, O, S) are controlled in large parts by redox reactions which are catalyzed by prokaryotes. Thus, microbial photosynthesis not only provides humans with breathable air, but also drives the Earth’s oxidation in general, and finally, supplies heterotrophic organisms with reduced carbon. Further, not only photosynthesis, but many other microbial processes contribute to important global nutrient cycles. One example for a cycle largely controlled by microbes is the nitrogen cycle. Microbes catalyze all the steps present in the global nitrogen cycle and thereby control the oxidation state in which the nitrogen species are present in Earth’s atmosphere, soil and oceans. Many other prokaryotes and eukaryotes, that cannot process atmospheric nitrogen, rely on the supply of these nitrogen species provided by nitrogen-fixing microbes. Also humans rely on fixed nitrogen, which initially is provided by microbes and wanders through the food chain until eventually taken up as part of the human nourishment. All of these examples show, that the global nutrient cycles which are in large parts controlled by microbes, are of such importance, that human existence relies on their catalysis provided by microbes.  
+     
+The potential of microbes to catalyze global processes does not only affect nutrient cycles, but also the global environment and climate. Microorganisms can significantly change the climate by altering the atmospheric composition. The production of several gases like methane and nitrous oxide strongly influences the global climate through the greenhouse effect. The great importance of this effect for the survival of organisms can be shown not only for present days, but also for early stages in time. In the distant past, about 3.5 billion of years ago, microbial methane production might have contributed to a global shield, warming up the planet (Nisbet and Sleep 2001). At this time, the sun was much weaker than today and therefore, without a greenhouse gas like methane, Earth would have been completely frozen over. By keeping the earth from freezing, this methane shield might have allowed for fast reproduction, leading to evolution and the emergence of more complex life-forms. About 500 million years later, microbes again significantly transformed the environment. The emergence of photosynthetic cyanobacteria led to a strong increase of the oxygen level in the atmosphere. This resulted in decreased viability of methanogenic organisms and therefore decreased methane concentrations, which in turn reduced the greenhouse effect. The consequence was a global glaciation, again significantly changing the composition of organisms capable of living on Earth. In summary, in the absence of microbes, the global environment with its properties as present now, could not have been created. In a world depleted of the global catalysis provided by microbes, Earth’s environment would have been very unfavorable for the emergence of complex life forms as they are present today. As the past times show, a stable environment, which can be provided and maintained by microbes, will also be necessary for humans to live in future times. If humans wanted to survive without microbes, they would have to artificially control all the cycles currently run by microbes. This, however, is most likely not possible. Humans will not be able to replace all the microbially driven cycles in an efficient way. We are not able to generate machines catalyzing processes as efficient as microbes do after millions of years of evolution. Further, as microbial diversity is unimaginably high, the range of the processes they catalyze can always adapt quickly to changing conditions. Humans will not be able to adapt their engineered machines fast enough in order to provide sufficient flexibility to changing demands.
+     
+In summary, the enormous number of prokaryotic cells present, their fast turnover and the high genetic diversity offer an unimaginable potential for the microbes to significantly contribute to the presence and properties of biogeochemical cycles. Microbes provide a global environment-composition which allowed for the emergence of humans and will also in the future be necessary for our persistence. From the beginning of our existence, we have been living in symbiosis with microbes. We do not only interact with microbes living in and on our bodies, but also with the global biogeochemical cycles they are a significant part of. Artificially replacing all of the processes provided by microbes will not be possible in a sufficient way. Therefore, existence of human life without the presence of microbes is most likely not possible as our survival strongly depends on stable global cycles, kept intact by microbes. Microbes have been the guardians of global metabolism for billions of years(Waters et al. 2016). It is very unlikely that humans could further exist without microbes present, continuously guarding global metabolic processes. A new question that arises is however, how likely it is, that the human race eventually manages to destroy this essential function of the microbes as guardians of global metabolism.  
+
+References  
+
+Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.
+Kasting, J. F., and J. L. Siefert. 2002. 'Life and the evolution of Earth's atmosphere', Science, 296: 1066-8.
+Nisbet, E. G., and N. H. Sleep. 2001. 'The habitat and nature of early life', Nature, 409: 1083.
+Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clément Poirier, Agnieszka Gałuszka, Alejandro Cearreta, Matt Edgeworth, Erle C. Ellis, Michael Ellis, Catherine Jeandel, Reinhold Leinfelder, J. R. McNeill, Daniel deB. Richter, Will Steffen, James Syvitski, Davor Vidas, Michael Wagreich, Mark Williams, An Zhisheng, Jacques Grinevald, Eric Odada, Naomi Oreskes, and Alexander P. Wolfe. 2016. 'The Anthropocene is functionally and stratigraphically distinct from the Holocene', Science, 351.
+Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
+
+
+
 
 

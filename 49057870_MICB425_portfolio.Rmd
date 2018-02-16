@@ -309,11 +309,6 @@ Microbes can not only diversify by point mutations, but also by bigger rearrange
 The enormous abundance of prokaryotes and the high turnover rates lead to a huge diversity. New mutations leading to new metabolic functions, pathways and cycles occur continously. Therefore, the metabolic potential is not only unimaginably high, but can also expand constantly to previously unknown emerging properties. Thus, microbes have the potential to significantly participate in and alter important biogeochemical cycles.
 
 
-### Module 01 references
-
-
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
-
 
 
 ### Evidence worksheet 02
@@ -421,7 +416,144 @@ phanerozoic:
 2.2 Ga:
 -oxygen level sharply increased.-> complex eukaryotes
 -Rocks recognized as red beds-> indicate oxidation
--Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
+-Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct. 
+
+### Problem set 2
+
+What are the primary geophysical and biogeochemical processes that create and sustain
+conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter
+and energy transformation and how are they interconnected?  
+
+Geophysical processes: Plate tectonics and atmospheric photochemical processes. These two processes allow for the interaction of molecules and their cyclation.
+
+Abiotic geochemical reactions are based on acid/base chemistry; proton transfers
+
+Biogeochemical processes: Redox reactions driven mostly by microbes. -> Formation of two half-cells leads to linked cycles.
+
+Biotic processes are based on redox reactions; electron transfers
+
+
+Biogeochemical processes depend on resupply of C, S and P by tectonic cycles in geological time-scales. Abiotic cycles  can supply biogeochemical reactions with new molecules carrying electrons which are required for the redox reactions.
+Therfore, abiotic acd/base reactions are interconnected with biotic redox reactions. Both reaction types support the other type with metabolites and energy required to sustain their cycles. This connection also leads to feedback on the microbial evolution, changing their metabolism and eventually the global redox state.
+
+• Why is Earth’s redox state considered an emergent property?
+
+The Earth's redox state depends on microbial metabolism which in turn adapts to the properties of geochemical cycles and therefore is subject to constant change. Further, a large part of the Earth's redox state is determined by photosynthesis, which is a process independent of already available energy stored in metabolites.
+Thus, many different processes and cycles are nested in a complex manner and together lead to the Earth's redox state as an emergent property.
+
+• How do reversible electron transfer reactions give rise to element and nutrient cycles at
+different ecological scales? What strategies do microbes use to overcome thermodynamic
+barriers to reversible electron flow?
+
+Reversible metabolic pathways can be directly related and catalyzed by microbes from similar species. On another scale, the reversible pathways may be catalyzed in a more global manner, by very diverse microbes. An expample for the first case is the formation of methane by methanogenic archaea, when the hydrogen pressure is high enough. In low hidrogen tension however, the reaction gets inversed by oxidation of methane to CO2. This reverse pathway is catalyzed by Archeae closely related to the methanogens. The second model can be represented by the global nitrogen cycle as an example. In this cycle, redox reactions are spatially and temporally separated and catalyzed  by many different microbes.  Atmospheric nitrogen is fixed by transformation of N2 to NH4+ by the oxygen sensitive enzyme nitrogenase. NH4+ is then oxidized in several steps to nitrite and finally nitrate in presence of oxygen. This nitrification is performed by several only distantly related bacteria and archaea. Again another set of microbes then uses the nitrate and nitrite as electron acceptors in anoxic conditions to generate energy. These bacteria thereby close this diverse, multipsecies cycle by the formation of N2.
+
+Thermodynamic barriers to reversible electron flow can be overcome by coupling the unfavourable reaction to an energy yielding reaction such as catabolism of organic compounds. Else, reactions can be made thermodynamically favourable by changing the redox couples in a manner that again leads to a positive redox potential of the wanted reaction. Different microbes use the end products of other microbes as their substrate. In photosynthesis for example, CO2 is used as an electron acceptor to generate reduced organic carbon. In this reaction, H2O, which is used as electron donor, gets oxidized to O2 as end product. Different organisms can then ireverse these reactions by using the organic carbon as electron donor and  O2 as electron acceptor.
+
+• Using information provided in the text, describe how the nitrogen cycle partitions between
+different redox “niches” and microbial groups. Is there a relationship between the nitrogen
+cycle and climate change?
+
+In this cycle, redox reactions are spatially and temporally separated and catalyzed  by many different microbes.  Atmospheric nitrogen is fixed by transformation of N2 to NH4+ by the oxygen sensitive enzyme nitrogenase in bacteria like rhizobia. NH4+ is then oxidized in several steps to nitrite and finally nitrate in presence of oxygen. This nitrification is performed by several only distantly related nitrifying bacteria and archaea. Again another set of microbes then uses the nitrate and nitrite as electron acceptors in anoxic conditions to generate energy. These bacteria thereby close this diverse, multipsecies cycle by the formation of N2.
+
+Humans strongly affect the global nitrogen cycle. Extensive usage of synthetic nitrogen fertilizers and fossil fuel processing lead to strong increases of reactive nitrogen in the atmosphere. These nitrogen species affect the abundance of the greenhouse gases CO2, CH4, O3 and N2O and therefore contribute to global warming.  
+
+• What is the relationship between microbial diversity and metabolic diversity and how does this
+relate to the discovery of new protein families from microbial community genomes?
+
+
+The huge amount of microbial cells and their fast turnover leads to an enourmous genetic diversity through mutations. A further mechanism strongly promoting microbial diversity and evolution is horziontal gene flow. In different envrionments, different selective pressures exist, which require specialized metabolic pathways. Therefore, the high genetic diversity and many different strong selective pressures lead to a huge metabolic diversity of microbes. This huge diversity can be observed by the fact that to date, the number of new protein families discovered still rises linearly with the number of newly sequenced genomes. This means, the microbial and metabolic diversity are so high, that the total number of genes and protein families are still unknown and can only be estimated very imprecisely
+
+• On what basis do the authors consider microbes the guardians of metabolism?
+
+The core genes responsible for most of the environment-specific metabolic pathways are spread in microbes all over the world. In addition, essential genes for general houskeeping pathways are highly conserved among global microbes.
+
+Different environments favour the evolution and survival of the best adapted microbes. This means, less adapted microbes and their specialized pathways go extinct in a certain environment. However, thanks to the global distribution of the core gene set, the specialized metabolic pathways of this extinct strain are very likely to survive in another strain in a different environment. In addition, the survival of the essential genes is even more expected, as these genes are conserved throughout most of the microbes on earth. Thus, despite changing environments and the selective pressures they cause, the genes responsible for different metabolic pathways always survive in some micrboes which therefore can be considered as the guradians of metabolism. 
+
+### Evidence Worksheet 03
+Evaluate human impacts on the ecology and biogeochemistry of Earth systems
+
+• What were the main questions being asked?
+
+
+ Whether humans changed the Earth system strong enough that the stratighrapic signature is altered in a way that the current epoch can be considered as distinct from the Holocene.
+
+- To determine the time-point this human made stratigraphical signal became recognizable in a significant manner.
+
+  
+In general: To rieview anthropogenic markers of changes in different systems ( biochemical cycles, sediment composition, sea-level, climate, biotic systems)
+
+• What were the primary methodological approaches used?
+
+The paper is a review.
+-> Results collected from other studies.  Measured concentrations of different molecules, isotope frequencies, temperatures etc from different places (soil, ocean, glacier etc). 
+-> Other measurements also taken to reconstruct/ extrapolate/ estimate the corresponding values of past times in Earth's history.
+-> Comparison of values from present and past times to infer whether humans have caused a significant change in stratighrapic signature
+
+• Summarize the main results or findings.
+
+anthropogenic deposits: (great acceleration at ~1950 CE)
+- products of mining, waste desposal, construction, urbanization. (
+	- great expansion of new minerals: new geological materials with long term persistance (new "rocks")
+		- Aluminium, concrete, organic polymers: "technofossils", provide  stratigraphic resolution in time scales of years to decades.
+	-combustion of fossil fuels lead to global distribution of airborn particles: black carbon, inorganic ash spheres, sperical carbonaceous particles. These particles are long time persistent stratigraphic markers.
+
+Modification of sedimentary processes:
+- Transformation of >50% of Earth's land surface: landfills, urban structure, mine tailings, deforestation, cultivated soils, sediment retention (dams, leading to reduced flux, subsided deltas)
+- Ocean: coastal reclamation works, sediment reworking, sand extraction, rising sea level, eutrophication, coral bleaching 
+-Subsurface: mineral extraction, waste storage
+
+Geochemical signatures in sediments and ice:
+- Elevated concentrations of polyaromatic hydrocarbons, polychlorinated biphenyls, pesticide residues, lead, 
+- Fertilizer usage: doubled concentrations of nitrogen and phosphorus in soil. Influx to lakes led to oxygen deficiency, increased  animal mortality.
+- Decrease of ^15^N in lakes, ice sheet.
+- Increase in nitrate: values higher than any for the previous 100'000 years.-> distinct from Holocene background level.
+- Industrial metals: cadmium, chromium, copper, mercury, nickel, lead, zinc
+
+Radiogenic signatures:
+- fallout from nuclear weapons testing: most widespread, globally synchronous anthropogenic signal.
+	-> Start of Anthropocene may be defined by detonation of the trinity atomic device at alamogordo, 1945.
+- Increased ^14^C, ^239^P ( ^239^P may be best radioisotope for marking the start of the Anthropocene because of long half-life and low solubility)
+
+Carbon cycle:
+- Atmospheric CO2: >400 ppm, exceeding Holocene levels since 1850 CE
+- ^13^C levels decrease of > 0.2% because burning of fossil fuels leads to increase of ^12^C (organic carbon has increased ^12^C because lighter isotope reacts faster in biochemical reactions (photosynthesis)
+	- permanent signal, stored in tree rings, lime-stones, fossils
+-Increase of methane to 1700 ppb, 900ppb higher than highest value in past 800'000 years
+
+Climate and sea-level change
+- Given orbital trend, earth should be cooling ( as it was since 8200 B.P. untill 1800CE)
+- emission of greenhouse gases lead to climate warming
+- Average temperature increase of 06.-0.9 degrees from 1906 to 2005, exceeding natural variability
+- Average global sea levels are higher than highest levels of the past 115'000 years.
+- rise of 3.2 mm per year from 1993 to 2010
+- climate and sea-level changes are not as strong as other stratiraphic changes, but are likely to exceed the envelope of quaternary system baseline conditions.
+-change in planetary energy balance: radiative forcing increased by 2.29 Wm^-2^ compared to 1750 CE. 8because of burning of fossil fuels)
+
+Biotic change:
+- Extinction rates since 1500 CE are far above mean per-million-year background rates.
+- species abundances and assamblages strongly altered; transglobal species invasions, agriculture, fishing.
+
+
+conclusion:
+- stratigraphic signatures are either novel or outside the range of variation of the holocene, supporting the formalization of the Anthropocene as stratigraphic epoch.
+- dating of begining of Anthropocene proposed to lay between 1945 and 1964 CE 
+
+• Do new questions arise from the results?
+
+- Should the Anthropocene be formalized as epoch or left as informal time term?
+- How to define the Anthropocene. 
+	-> By GSSA (calendar age) or GSSP ( reference point in a stratal section)
+	-> Define start point of the Anthorpocene (1945-1964)?
+-How are the stratigraphical changes going to proceed in the future? -> Make projections of climate, sea-level, biodiversity etc to future
+
+• Were there any specific challenges or advantages in understanding the paper (e.g. did the
+authors provide sufficient background information to understand experimental logic, were
+methods explained adequately, were any specific assumptions made, were conclusions justified
+based on the evidence, were the figures or tables useful and easy to understand)?
+
+The Review mostly showed very well, on what data/assumptions/estimations their results are based. However, sometimes it was not clear, how the data were optained, i.e. which methods lead to the obtained results.
+Further, it is not always clear, how exact the obtained values for concentrations/ temperatures etc are. Especially for the estimations of the values for earlier points in time, some more information about error rates would have been useful. 
+
 
 ### Module 1 assay
 "Microbial life can easily live without us; we, however, cannot survive without the global
@@ -448,6 +580,14 @@ Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clém
 Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
 
 
+### Module 01 references
 
+
+Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.
+Kasting, J. F., and J. L. Siefert. 2002. 'Life and the evolution of Earth's atmosphere', Science, 296: 1066-8.
+Nisbet, E. G., and N. H. Sleep. 2001. 'The habitat and nature of early life', Nature, 409: 1083.
+Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clément Poirier, Agnieszka Gałuszka, Alejandro Cearreta, Matt Edgeworth, Erle C. Ellis, Michael Ellis, Catherine Jeandel, Reinhold Leinfelder, J. R. McNeill, Daniel deB. Richter, Will Steffen, James Syvitski, Davor Vidas, Michael Wagreich, Mark Williams, An Zhisheng, Jacques Grinevald, Eric Odada, Naomi Oreskes, and Alexander P. Wolfe. 2016. 'The Anthropocene is functionally and stratigraphically distinct from the Holocene', Science, 351.
+Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
 
 

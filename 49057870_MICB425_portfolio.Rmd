@@ -49,11 +49,11 @@ output:
 
 ### Installation check
 
-![Screenshot_GIT](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\Assignment 1\Screenshot_GIT.png)
+![Screenshot_GIT](C:\Users\Lukas\Documents\MICB425_portfolio\Screenshot_GIT.png)
 
-![Screenshot_GitHub](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\Assignment 1\Screenshot_GitHub.png)
+![Screenshot_GitHub](C:\Users\Lukas\Documents\MICB425_portfolio\Screenshot_GitHub.png)
 
-![Screenshot_Rstudio](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\Assignment 1\Screenshot_Rstudio.png)
+![Screenshot_Rstudio](C:\Users\Lukas\Documents\MICB425_portfolio\Screenshot_Rstudio.png)
 
 
 
@@ -85,7 +85,7 @@ output:
 The following assignment is an exercise for the reproduction of this .html document using the RStudio and RMarkdown tools we've shown you in class. Hopefully by the end of this, you won't feel at all the way this poor PhD student does. We're here to help, and when it comes to R, the internet is a really valuable resource. This open-source program has all kinds of tutorials online.
 
 
-![http://phdcomics.com/ Comic posted 1-17-2018](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\assignment 3\phd011718s.png) 
+![http://phdcomics.com/ Comic posted 1-17-2018](C:\Users\Lukas\Documents\MICB425_portfolio\phd011718s.png) 
 
 ##### Challenge Goals
 
@@ -117,7 +117,7 @@ kable(summary(cars),caption="I made this table with kable in the knitr package l
 
 And now you've almost finished your first RMarkdown! Feeling excited? We are! In fact, we're so excited that maybe we need a big finale eh? Here's ours! Include a fun gif of your choice!
 
-![](C:\Users\Lukas\Documents\ETH\FS18 Vancouver\MICB 425\Data Science Friday\assignment 3\polar_gif.gif)  
+![](C:\Users\Lukas\Documents\MICB425_portfolio\polar_gif.gif)  
 
 ### Data science assignment 4
 

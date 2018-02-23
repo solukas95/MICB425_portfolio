@@ -262,6 +262,11 @@ Therefore, also some more detailed discussion about the precision of the obtaine
 
 
 ### Problem set 01
+
+
+[Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+
 #### Learning objectives: 
 Describe the numerical abundance of microbial life in relation to the ecology and biogeochemistry of Earth systems.
 
@@ -369,70 +374,99 @@ The enormous abundance of prokaryotes and the high turnover rates lead to a huge
 
 ### Evidence worksheet 02
 
+[Nisbet et al. 2001](https://www.nature.com/articles/35059210)
+[Kasting et al. 2002](http://science.sciencemag.org/content/296/5570/1066)
+
 ####Key events in the evolution of Earth systems  
-Hadean:
-4.6 Ga: Formation of earth  
+Hadean:  
+
+4.6 Ga: Formation of earth, Atmosphere of vapor, methane, ammonia, hydrogen, nitrogen.  
+
 4.5 Ga: Moon formed by impact of inner planet. Induced spin, tilt of Earth, leading to day/ night cyles and seasons.  
-4.4 Ga: Oldest zircoins, formation of Oceans, atmosphere
-4.3-3.8 Ga: Heavy bombardment of Earth
+
+4.4 Ga: Oldest zircoins, formation of Oceans, atmosphere  
+
+4.3-3.8 Ga: Heavy bombardment of Earth  
+
 4.1 Ga: First evidence for life: Carbon isotopes preserved  
+
 4.0 Ga: Plate subduction  
 - Oldest rock: acasta gneiss in Canada. -> Silica-rich rocks
 - water Oceans needed to provide cool, hydrated lithospheric plates to create rocks  
 - CO2 as greenhouse gas, CO2 rich ocean.-> reacts with basalt to form carbonates.-> CO2 decreases, atmosphere cools down-> surface temperature glacial
--methane as greenhouse gas
+- Methane as greenhouse gas
 
-Archaean:
+Archaean:  
+
 3.8 Ga: Oldest sedimentary rocks,  
 Carbon isotopes: Evidence for life in sedimentary rocks in greenland
-Photosynthesis possible, Rubisco 
--Cyanobacteria
-3.5 Ga: Evidence for photosynthesis in microfossils, stromatolites, fossil biofilms   -rubisco
--Sun weak, methane as greenhouse gas, warming shield  
-3 Ga: Glaciation because of oxygen production, less methanogen production.- less greenhouse effect  
--Life on land: great oxydation event-> glaciation  
--Large carbon isotope signals for carbon fixation 
--well developed stromatolites in ontario, south africa
+Photosynthesis possible, Rubisco present  
+- Cyanobacteria
 
-2.7 Ga:
--well developed stromatolites
--direct evidence for life: molecular fossils of biological lipids from western australia.
--hydrocarbon biomarkers characteristic of cyanobacteria imply oxygenic photosynthesis
--Steranes as evidence for presence of eukaryotes
+3.5 Ga: Evidence for photosynthesis in microfossils, stromatolites, fossil biofilms   
+- rubisco
+- Sun weak, methane as greenhouse gas, warming shield
+- Archea and Bacteria split  
 
-2.2 Ga: 
--Complex eukaryotes, oxygen level increased sharply -Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
--Cellular cybernetic switch between mitochondria, chloroplasts. - may control link between photosynthesis and N fixation.
+3 Ga: Cyanobacteria evolve. Glaciation because of oxygen production, less methanogen production.- less greenhouse effect  
+- Life on land: great oxydation event-> glaciation  
+- Large carbon isotope signals for carbon fixation 
+- Well developed stromatolites in ontario, south africa
+- Large asteroid impact  
 
-Proterozoic:  
--1.8 Ga: Eukaryotes, algae, symbiosis. 
-- changing carbon cycle, several global glaciations.- snowball Earth
--macroscopic life forms
+2.7 Ga:  
+- Well developed stromatolites
+- Direct evidence for life: molecular fossils of biological lipids from western australia.
+- Hydrocarbon biomarkers characteristic of cyanobacteria imply oxygenic photosynthesis
+- Steranes as evidence for presence of eukaryotes
 
+2.2 Ga:  
+- Complex eukaryotes, oxygen level increased sharply -Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
+- Cellular cybernetic switch between mitochondria, chloroplasts. - may control link between photosynthesis and N fixation.
 
+Proterozoic: 
 
--540 Ma: End of precambrian: cambrian explosion- emergence, diversification of animals. -expansion of mulitcellular evolution
+1.8 Ga: 
+- Eukaryotes, algae, symbiosis. 
+- Changing carbon cycle, several global glaciations.- snowball Earth
+- Macroscopic life forms  
 
-phanerozoic: 
-400 Ma: devonian explosion: land plants, gigantism -strong increased oxygenation of atmosphere
--Carboniferous period: fish, cephalopods, corals
+1 Ga: 
+- First major ice age, large impact on carbon cycle  
 
-300 Ma: Permian extinction (95% of species)
--followed by rapid speciation, rise of dinosaurs
--Formation of pangea, dry, harsh climate
+540 Ma: 
+- End of precambrian: Cambrian explosion
+- Emergence, diversification of animals. 
+- Expansion of mulitcellular evolution  
 
--66 Ma: Cretaceous-tertiary extinction event
-- dramatic global warming
--diversification of mammals, increasing size of mammals
--dominating forest
+Phanerozoic: 
+400 Ma: 
+- Devonian explosion: Land plants, gigantism   
+- Strong increased oxygenation of atmosphere  
+- Carboniferous period: fish, cephalopods, corals  
 
-23 Ma: neogene; Ice age
+300 Ma: 
+- Permian extinction (95% of species)  
+- Followed by rapid speciation, rise of dinosaurs  
+- Formation of pangea, dry, harsh climate
 
-6 Ma: First hominins
+66 Ma: 
+- Cretaceous-tertiary extinction event
+- Dramatic global warming
+- Diversification of mammals, increasing size of mammals
+- Dominating forest  
 
-2.6 Ma: Quaternary period
+23 Ma: 
+- Neogene; Ice age  
 
-200'000 BP: Homo sapiens appears
+6 Ma: 
+- First hominins
+
+2.6 Ma: 
+- Quaternary period  
+
+200'000 BP: 
+- Homo sapiens appears
 
 
 
@@ -442,41 +476,58 @@ phanerozoic:
 
 #### Dominant physical/ chemical characteristics of Earth systems
 
+Hadean  
+
 4.6 Ga:  
--High CO2 pressure; heat radiated to space
--500 degrees Celsius  
--CO2 tied up in carbonate minerals (limestone)
--Ocean filled with water
--Water as greenhouse gas, as vapour high in atmosphere, phtolysed into hydrogen and oxygen, hydrogen lost to space
+- High CO2 pressure; heat radiated to space
+- 500 degrees Celsius  
+- CO2 tied up in carbonate minerals (limestone)
+- Ocean filled with water
+- Water as greenhouse gas, as vapour high in atmosphere, phtolysed into hydrogen and oxygen, hydrogen lost to space
 
 4.5 - 4 Ga: 
--100 degrees Celsius  
--Many meteorite impacts, heating up earth to >100 degrees. -> ocean vapourized
--Seawater chemistry controlled by volcanism
--Ice house, CO2 rising as greenhouse gas
+- 100 degrees Celsius  
+- Many meteorite impacts, heating up earth to >100 degrees. -> ocean vapourized
+- Seawater chemistry controlled by volcanism
+- Ice house, CO2 rising as greenhouse gas
+
+Archean  
 
 3.8 Ga: 
--Meteorite bombardment halted.-> seawater chemistry stabilized
--sulphur reduction
--methanogenesis: greenhouse gas, heating up earth (Earth would have been glacial without methane shield because of weaker sun)  
+- Meteorite bombardment halted.-> Seawater chemistry stabilized
+- Sulphur reduction
+- Methanogenesis: Greenhouse gas, heating up earth (Earth would have been glacial without methane shield because of weaker sun)  
 
 
 3.5 Ga: 
--Earth still anoxic
--Hydrothermal, volcanogenic habitats
--Microbes spread on coastal fringes, deeper water, deep hydrothermal vents  
+- Earth still anoxic
+- Hydrothermal, volcanogenic habitats
+- Microbes spread on coastal fringes, deeper water, deep hydrothermal vents  
 
-2.7 Ga:
--well developed stromatolites
+2.7 Ga:  
+- Well developed stromatolites
 
-2.2 Ga:
--oxygen level sharply increased.-> complex eukaryotes
--Rocks recognized as red beds-> indicate oxidation
--Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct. 
+Proterozoic 
+
+2.2 Ga:  
+- Oxygen level sharply increased.-> complex eukaryotes
+- Rocks recognized as red beds-> indicate oxidation
+- Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct. 
+
+Phanerozoic  
+
+500-0 Ga:  
+- Several ice ages
+- Species diversification
+- Mass extinctions
+- Complex global nutrient cycles emerge (carbon, oxygen, nitrgen)
 
 ### Problem set 2
 
-What are the primary geophysical and biogeochemical processes that create and sustain
+
+[Falkowski et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
+
+• What are the primary geophysical and biogeochemical processes that create and sustain
 conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter
 and energy transformation and how are they interconnected?  
 
@@ -526,7 +577,10 @@ The core genes responsible for most of the environment-specific metabolic pathwa
 Different environments favour the evolution and survival of the best adapted microbes. This means, less adapted microbes and their specialized pathways go extinct in a certain environment. However, thanks to the global distribution of the core gene set, the specialized metabolic pathways of this extinct strain are very likely to survive in another strain in a different environment. In addition, the survival of the essential genes is even more expected, as these genes are conserved throughout most of the microbes on earth. Thus, despite changing environments and the selective pressures they cause, the genes responsible for different metabolic pathways always survive in some micrboes which therefore can be considered as the guradians of metabolism. 
 
 ### Evidence Worksheet 03
-Evaluate human impacts on the ecology and biogeochemistry of Earth systems
+
+[Waters et al. 2016](http://science.sciencemag.org/content/351/6269/aad2622)
+
+#### Evaluate human impacts on the ecology and biogeochemistry of Earth systems
 
 • What were the main questions being asked?
 
@@ -612,6 +666,8 @@ Further, it is not always clear, how exact the obtained values for concentration
 
 
 ### Module 1 assay
+
+
 "Microbial life can easily live without us; we, however, cannot survive without the global
 catalysis and environmental transformations it provides."  
 
@@ -627,7 +683,7 @@ The potential of microbes to catalyze global processes does not only affect nutr
      
 In summary, the enormous number of prokaryotic cells present, their fast turnover and the high genetic diversity offer an unimaginable potential for the microbes to significantly contribute to the presence and properties of biogeochemical cycles. Microbes provide a global environment-composition which allowed for the emergence of humans and will also in the future be necessary for our persistence. From the beginning of our existence, we have been living in symbiosis with microbes. We do not only interact with microbes living in and on our bodies, but also with the global biogeochemical cycles they are a significant part of. Artificially replacing all of the processes provided by microbes will not be possible in a sufficient way. Therefore, existence of human life without the presence of microbes is most likely not possible as our survival strongly depends on stable global cycles, kept intact by microbes. Microbes have been the guardians of global metabolism for billions of years(Waters et al. 2016). It is very unlikely that humans could further exist without microbes present, continuously guarding global metabolic processes. A new question that arises is however, how likely it is, that the human race eventually manages to destroy this essential function of the microbes as guardians of global metabolism.  
 
-References  
+#### References  
 
 Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.  
 
@@ -647,7 +703,6 @@ Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen m
 Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.
 
-Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.  
 
 Kasting, J. F., and J. L. Siefert. 2002. 'Life and the evolution of Earth's atmosphere', Science, 296: 1066-8.  
 
@@ -658,3 +713,128 @@ Alejandro Cearreta, Matt Edgeworth, Erle C. Ellis, Michael Ellis, Catherine Jean
 
 Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
 
+# Module 2
+### Problem set 03
+
+[Wooley et al. 2010](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000667)
+[Madsen et al. 2005](https://www.ncbi.nlm.nih.gov/pubmed/15864265)
+
+• How many prokaryotic divisions have been described and how many have no cultured
+representatives (microbial dark matter)? 
+
+More than 40 major bacterial divisons and 12 divisions in archeae have been described (1,2).
+The total number of microbial species on earth is estimated to be up to 10^12^ (3).
+Up to 99.8% of microbial species are not culturable (4).
+
+1. [Pace et al. 1997](https://www.ncbi.nlm.nih.gov/pubmed/9115194)  
+2. [DeLong et al. 2001](https://www.ncbi.nlm.nih.gov/pubmed/12116647)  
+3. [Locey et al. 2016](http://www.pnas.org/content/113/21/5970)
+4. [Streit et al 2004](https://www.ncbi.nlm.nih.gov/pubmed/15451504)  
+
+• How many metagenome sequencing projects are currently available in the public domain
+and what types of environments are they sourced from?
+
+The Gold database counts 1424 Metagenomic studies, with 51513 sequencing projects  
+[Gold database](https://gold.jgi.doe.gov/studies?Study.Metagenomic+Study=Yes&Study.Is+Public=Yes)
+
+The main environment types are:  
+-Marine  
+-Soil  
+-Sediment  
+-Gut of humans/ animals  
+
+• What types of on-line resources are available for warehousing and/or analyzing
+environmental sequence information (provide names, URLS and applications)?
+
+BLAST: find homologs  
+[BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  
+
+RAMMCAP: clusters translated ORFs by sequence similarity, can also be used to compare metagenomes.  
+[RAMMCAP](http://weizhong-lab.ucsd.edu/rammcap/rammcap_20130510.html)    
+
+MG-RAST: gene calling and annotation by sequence similarity  
+[MG_RAST](https://metagenomics.anl.gov/) 
+
+Pfam: protein family database, uses Hidden markov model  
+[Pfam](http://pfam.xfam.org/) 
+
+MEGAN, CARMA, Phymm: For toxonomy-dependant binning  
+[MEGAN](http://ab.inf.uni-tuebingen.de/data/software/megan5/download/welcome.html)  
+[CARMA](https://omictools.com/carma-tool)  
+[Phymm](https://omictools.com/phymm-phymmbl-tool)  
+
+MEGAN: also for comparing OTUs of different samples  
+
+TETRA: taxonomy-independant binning  
+[TETRA](http://www.megx.net/tetra)  
+
+
+UniFrac, MetaStats: To compare metagenomes based on phylogenetic data  
+[UniFrac](http://bmf.colorado.edu/unifrac)  
+[MetaStats](http://www.cbcb.umd.edu/software/metastats)  
+
+ShotgunFunctionalizeR: Metagenome analysation in R  
+[ShotgunFunctionalizeR](http://shotgun.zool.gu.se)  
+
+Wooley et al. 2010
+
+• What is the difference between phylogenetic and functional gene anchors and how can
+they be used in metagenome analysis?
+
+Phylogenetic gene anchors are used to determine the different OTUs present in a sample and to order them in a tree. 16s RNA is mostly used as phylogenetic anchor gene.
+Functional gene anchors show the genes for important metabolic functions that are present in a certain environment. These can be used to determine the specific metabolic potential of a community in its respective environment.
+
+[Krause et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18285365)
+
+• What is metagenomic sequence binning? What types of algorithmic approaches are
+used to produce sequence bins? What are some risks and opportunities associated with
+using sequence bins for metabolic reconstruction of uncultivated microorganisms?
+
+Binning: build longer sequences from overlapping fragments and assign them to OTUs  
+Approaches:  
+-Taxonomy-dependent: Supervised  
+	-sequenes get assigned to homologs in reference sequence databases, often using BLAST  
+	-OTUs can be assigned to a last common ancestor.-> Phylogenetic trees are established. (MEGAN/ CARMA/ Phymm algorithm)  
+	-Good method if sequences are similar to referencce sequence.  
+-Composition-dependant: Unsupervised  
+	- No reference sequences needed. -> good for unknown sequences without homologs  
+	- Assignment based on GC content or short nucleotide sequences like tetranucleotides (TETRA algorithm).  
+	- Other method: based on codon-usage: Cann be combined with TETRA to improve binning.  
+
+- Assambling algorithm: Represent each read a vertex and detect overlapping vertices. Find correct assembly: NP- Hamiltonian path problem.-> gets too time expensive when amount of fragments is too high, as produced by second gen sequencing of metagenome. Solution: use k-mer words instead of the whole reads. -> Assembling can now be done in linear-time with Eulerian path.   
+- Other method: ORFome assembly: First find putative open reading frames and then assemble only these regions. - Problem: non-coding regions or undetected ORFs get lost.(Wooley et al, 2010)
+
+Risks:   
+-Composition-based binning has high missclassification rates, especially when many, close related OTUs present in the sample.  
+-Assembling sequences from different OTUs together. This generates interspecies chimeras which don't represent the actual metabolic potential of an exisisting OTU.   
+-Not DNA from all organisms of the habitat present, some are more abundant.  
+-ORFs often not detected because fragments only contain parital ORFs
+Some sequences cannot be assigned:   
+Long repeat sequences, sequences that have no homologs in database yet  
+Cloning bias: some sequences do not get incorporated in cloning vector because they are toxic for the host  
+Opportunities: To infer the genomic/metabolic potential of whole communities. Fast and efficient process, algorithms. Algorithms are continously improving.  
+
+Source: Previous genomics lecture at ETH Zürich and Wooley et al, 2010
+
+
+• Is there an alternative to metagenomic shotgun sequencing that can be used to access
+the metabolic potential of uncultivated microorganisms? What are some risks and
+opportunities associated with this alternative?
+
+Polymerase colonies: Polonies  
+The sampled DNA is diluted to separate the single DNA fragments. Single nucleic acids are then amplified by a polymerase. The amplicons can then be sequenced using a next generation sequencing technique like Illumina.
+
+Second Generation sequencing (Illumina):  
+DNA gets amplified by bridge amplificationo, fragments get sequenced by synthesis, in parallel.
+
+Advantage: More sequences produced than in shotgun-sanger sequencing, cheap per bp, sensitive because of amplification, only ng amounts of DNA needed.   
+Problem: The produced sequences are shorter, which makes binning more difficult.
+
+Third generation sequencing:  
+PacBio or Oxford Nanopore  
+- Single DNA molecules get directly real-time sequenced.  
+Advantage: No amplification needed, very long reads, fast, good for difficult genomes, eg with long repeat sequences
+With third gen sequencing, even unassembled reads can be used to identify the metabolic function. The long single reads can be directly BLASTed to find ORFs  
+Disadvantage: Higher per-base pair costs, less fragments, more sample needed (ug in 3rd gen vs ng in second gen)
+
+Source: Previous genomics lecture at ETH Zürich and Wooley et al, 2010

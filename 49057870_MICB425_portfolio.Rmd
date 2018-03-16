@@ -186,9 +186,10 @@ ggplot(faceted, aes(x=Depth_m, y=uM))+
 Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
 
 #### General questions
-* What were the main questions being asked?
+#### What were the main questions being asked?
 
-The main questions were:  
+The main questions were: 
+
 - To determine the number of prokaryotes in different habitats  
 - Which habitats are the most important ones; contribute the most to the abundance of microbes  
 - The amount of carbon stored in prokaryotes  
@@ -197,28 +198,32 @@ The main questions were:
     - Which habitats are the most productive ones    
     - Estimate prokaryotic diversity (higher turnover leads to more mutations, diversity)
 
-* What were the primary methodological approaches used?
+#### What were the primary methodological approaches used?
 
--Sampling of prokaryotes from different habitats, (top 200m of open ocean, ocean below 200m, different soils, subsurface in various dephts etc), quantification of cells in these samples.    
--Estimation and extrapolation of cell abundances in habitats that could not be sampled.  
--Research of data obtained from previous studies for estimations of cell abundance.  
--Extrapolation, estimations, assumptions, mathematical formulas to calculate cell numbers, nutrient contents etc.  
+- Sampling of prokaryotes from different habitats, (top 200m of open ocean, ocean below 200m, different soils, subsurface in various dephts etc), quantification of cells in these samples.   
+- Estimation and extrapolation of cell abundances in habitats that could not be sampled.  
+- Research of data obtained from previous studies for estimations of cell abundance.  
+- Extrapolation, estimations, assumptions, mathematical formulas to calculate cell numbers, nutrient contents etc.  
+
 Examples of approaches:  
--Open ocean: average cell density (cells/ml water), cell volume.-> estimate number of cells  
--Subsurface: few samples taken, depth profile generated, extrapolation to 4km depth.   
+
+- Open ocean: average cell density (cells/ml water), cell volume.-> estimate number of cells  
+- Subsurface: few samples taken, depth profile generated, extrapolation to 4km depth.   
  	2nd approach: porosity of terrestrial surface 3%, 0.016% of pores occupied. -> use cell volume to calculate cell number  
 	3rd: groundwater data for estimation  
--Soil: estimations from direct cell counts from different soils
+- Soil: estimations from direct cell counts from different soils
 
-* Summarize the main results or findings.
+#### Summarize the main results or findings.
 
 There are three habitats that mainly contribute to earth's prokaryotic abundance:  
--Open ocean (1.2x 10^29^ cells)   
--Soil (2.6x 10^29^ cells)  
--Subsurfaces ( terrestrial, below 8m and marine below 10cm) (0.25-2.5x 10^30^ cells)  
+
+- Open ocean (1.2x 10^29^ cells)   
+- Soil (2.6x 10^29^ cells)  
+- Subsurfaces ( terrestrial, below 8m and marine below 10cm) (0.25-2.5x 10^30^ cells)  
 
 Further important habitats but with minor contributions to total cell number:  
-	- Animals, Leaves, Air  
+
+- Animals, Leaves, Air  
 
 ->Total number of prokaryotes estimated to 4-6x 10^30^ cells
 
@@ -228,6 +233,7 @@ Total prokaryotic carbon: 350-550 Pg (1Pg= 10^15 g)
 Total prokaryotic nutrients (N,P) are circa 10 fold more than in plants. (N: 85-130 Pg, P: 9-14 Pg)
 
 Turnover times in different habitats:  
+
 - Ocean above 200m: 6-25 days  
 - Ocean below 200m: 300 days  
 - Soil: 2.5 years  
@@ -241,18 +247,19 @@ Total cellular production rate on earth: 1.7x 10^30^ cells per year
 -> Large population size and turnover rates generate a huge potential for microbial diversity.-> leads to the opportunity of emergence of new cycles, pathways  
 -> Number of prokaryotic species may be greatly underestimated
 
-* Do new questions arise from the results?
+#### Do new questions arise from the results?
 
 The extremly long turnover rate for subsurface prokaryotes indicates that this habitat is not yet understood very well and needs to be further investigated
 
 Determination of prokaryotic diversity:  
-	- Huge prokaryotic populations with fast turnover rates (especially in open ocean) have the potential for a very large genetic diversity due to many mutation events. Prokaryotes have a much higher potential for simultaneous mutations than eukaryots and should therefore be differently treated in phylogenetic analyses. The number of prokaryotic species may be much higher than currently estimated through a DNA melting temperature method.  
+
+- Huge prokaryotic populations with fast turnover rates (especially in open ocean) have the potential for a very large genetic diversity due to many mutation events. Prokaryotes have a much higher potential for simultaneous mutations than eukaryots and should therefore be differently treated in phylogenetic analyses. The number of prokaryotic species may be much higher than currently estimated through a DNA melting temperature method.  
 -> The diversity of prokaryotic species must be further investigated to understand the earths communities and its contribution to biogechemical processes.
 
--Paper is from 1980.-> How exact are the obtained numbers, estimations? Are there better technologies, more samples available to repeat calculations (especially for subsurface samples)?  
-	-Has abundance and diversity of microbes changed since 1980? 
+- Paper is from 1980.-> How exact are the obtained numbers, estimations? Are there better technologies, more samples available to repeat calculations (especially for subsurface samples)?  
+	- Has abundance and diversity of microbes changed since 1980? 
 
-* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+#### Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
 
 The assumptions and methods of the calculations were often not very well explained or completely absent. As most of the results in this paper are based on assumptions and estimations, it would have been useful if they were more transparent in their calculations. 
 Therefore, also some more detailed discussion about the precision of the obtained numbers with error estimates or confidence intervals for example would have been usefull.
@@ -271,17 +278,18 @@ Therefore, also some more detailed discussion about the precision of the obtaine
 Describe the numerical abundance of microbial life in relation to the ecology and biogeochemistry of Earth systems.
 
 #### Specific questions:
-* What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
+#### What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
 
 Open ocean: Total 1.2x 10^29^ cells  
-	-Top 200m: 3.6x 10^28^  
-	-Below 200m (incl. 10 cm of sediment): 8.2x 10^28^  
+
+- Top 200m: 3.6x 10^28^  
+- Below 200m (incl. 10 cm of sediment): 8.2x 10^28^  
 
 Soil: 2.6x 10^29^ cells
 
 Subsurfaces: ~3.8x 10^30^ cells (uncertain, estimation)
 
-* What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
+#### What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
 
 Upper 200m: 3.6x 10^28^ cells  
 ->2.9x 10^27^ autotrophs (cyanobacteria)  
@@ -291,46 +299,46 @@ These 8% of autotrophic bacteria have to assimilate enough carbon to sustain the
 
 This ratio means that 8% of assimilating autotrophs can sustain the need of additional carbon from outside the oceanic carbon cycle for the 92% of heterotrophes. Therefore, there is much more carbon cycling within the ocean than new carbon is fixed from the atmosphere to the ocean or that carbon is 'lost' from the ocean to the atmosphere.
 
-* What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text? 
+#### What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text? 
 
 Autotroph: CO2 as carbon source used. Fix inorganic carbon to biomass.   
 Heterotroph: not CO2 as carbon source.-> organic carbon needed.  
 Lithotroph: inorganic electron donor like NH3, H2S
 
-* Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
+#### Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
 
 4km below the surface. (4 km below terrestrial surface or marine sediments)  
 At 4km below surface, the temperature is about 125 degrees celsius, which is the temperature-limit for prokaryotes to live.
 In terrestrial habitat, temperature rises about 22 degrees celsius per km.
 
-* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?
+#### Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?
 
 Up to 77km (But not really living cells up there, only transient state, spores...)  
 More realistic: 20km  
 Limiting factor: cold temperature (up to -90 degrees), radiation, low pressure, no nutrients   
 -> Mnt. Everest: 8.8km + 20km on top-> 28.8 km
 
-* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
+#### Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
 
 Mariana trench: ~10.9 km deep, from this point, microbes can live up to 4km further down below marine sediment-surface.  
 -> from 20km on top of Mnt. Everest to 4km below Mariana trench   -> total of 44 km
 
-* How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
+#### How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
 
 For annual cellular production, population size and growth rate must be taken into account.
 
 -> Population size x Turnover rate (years)= Annual cellular production  
-->Ocean above 200m:  
+-> Ocean above 200m:  
 	Pop size = 3.6x 10^28^ cells  
 	Turnover time in days: 16 -> Turnover rate = 365/16= 22.81 per year    
 -> 3.6x 10^28^ Cells x 22.81 Turnovers per year = 8.2x 10^29^ cells per year
 
-->in soil:     
+-> In soil:     
 	pop. size= 2.6x 10^29^ cells    
 	Turnover rate = 0.4 per year (= 365/900)  
 -> 2.6x 10^29^ x 0.4= 10^29^ cells per year
 
-* What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+#### What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
 
 Net productivity in ocean: 51 Pg/year   
 Prokaryotic carbon in ocean: 0.7-2.9 Pg  
@@ -352,20 +360,20 @@ Carbon efficiency: 20%. But factor used in paper: 4 (!?)
 Relationship varies because different fractions of the primary productivity reach different depths in different habitats.
 ( in soil, carbon gets burried much slower than carbon can sink in the ocean.- in ocean more carbon available when closer to the surface because more sunlight->more autotrophs present, more photosynthesis possible. 
 
-* How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
+#### How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
 
 (4 x 10^-7^ mutations per gene per generation)^4^ = 2.56 x 10^-26^ mutation rate for 4 simoultanous mutations per gene per generation    
 3.6 x 10^28^cells x 22.8 turnovers per year = 8.2 x 10^29^ cells per year    
 8.2 x 10^29^cells per year x 2.56 x 10^-26^ mutations per generation = 2.1 x 10^4^  times per year => four simoultanous mutations every 0.4 hours. 
 
 
-* Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
+#### Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
 
 Genetic diversity and adaptive potential might be much higher than previously expected. The number of prokaryotic species might be much higher than estimatad with DNA melting temperature method. The high diversity leads to the potential to adapt to changing environments and new metabolic pathways and cycles can emerge. Through the large number of prokaryotic cells and their high diversity, the microbes even have the potential to alter global nutrient cycles.
 
 Microbes can not only diversify by point mutations, but also by bigger rearrangements in the genome (inversion, duplication, deletion etc). Else, genes (plasmids) could be transferred during conjugation, transformation or transduction, which allows fast adaptation through horizontal gene-transfer.
 
-* What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
+#### What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
 
 The enormous abundance of prokaryotes and the high turnover rates lead to a huge diversity. New mutations leading to new metabolic functions, pathways and cycles occur continously. Therefore, the metabolic potential is not only unimaginably high, but can also expand constantly to previously unknown emerging properties. Thus, microbes have the potential to significantly participate in and alter important biogeochemical cycles.
 
@@ -378,95 +386,97 @@ The enormous abundance of prokaryotes and the high turnover rates lead to a huge
 [Kasting et al. 2002](http://science.sciencemag.org/content/296/5570/1066)
 
 ####Key events in the evolution of Earth systems  
+
 Hadean:  
 
-4.6 Ga: Formation of earth, Atmosphere of vapor, methane, ammonia, hydrogen, nitrogen.  
+- 4.6 Ga: Formation of earth, Atmosphere of vapor, methane, ammonia, hydrogen, nitrogen.  
 
-4.5 Ga: Moon formed by impact of inner planet. Induced spin, tilt of Earth, leading to day/ night cyles and seasons.  
+- 4.5 Ga: Moon formed by impact of inner planet. Induced spin, tilt of Earth, leading to day/ night cyles and seasons.  
 
-4.4 Ga: Oldest zircoins, formation of Oceans, atmosphere  
+- 4.4 Ga: Oldest zircoins, formation of Oceans, atmosphere  
 
-4.3-3.8 Ga: Heavy bombardment of Earth  
+- 4.3-3.8 Ga: Heavy bombardment of Earth  
 
-4.1 Ga: First evidence for life: Carbon isotopes preserved  
+- 4.1 Ga: First evidence for life: Carbon isotopes preserved  
 
-4.0 Ga: Plate subduction  
-- Oldest rock: acasta gneiss in Canada. -> Silica-rich rocks
-- water Oceans needed to provide cool, hydrated lithospheric plates to create rocks  
-- CO2 as greenhouse gas, CO2 rich ocean.-> reacts with basalt to form carbonates.-> CO2 decreases, atmosphere cools down-> surface temperature glacial
-- Methane as greenhouse gas
+- 4.0 Ga: Plate subduction  
+    - Oldest rock: acasta gneiss in Canada. -> Silica-rich rocks  
+    - water Oceans needed to provide cool, hydrated lithospheric plates to create rocks  
+    - CO2 as greenhouse gas, CO2 rich ocean.-> reacts with basalt to form carbonates.-> CO2 decreases, atmosphere cools down-> surface temperature glacial  
+    - Methane as greenhouse gas
 
 Archaean:  
 
-3.8 Ga: Oldest sedimentary rocks,  
+- 3.8 Ga: Oldest sedimentary rocks,  
 Carbon isotopes: Evidence for life in sedimentary rocks in greenland
-Photosynthesis possible, Rubisco present  
-- Cyanobacteria
+Photosynthesis possible, Rubisco present    
+    - Cyanobacteria
+  
+- 3.5 Ga: Evidence for photosynthesis in microfossils, stromatolites, fossil biofilms   
+    - Rubisco
+    - Sun weak, methane as greenhouse gas, warming shield
+    - Archea and Bacteria split  
+  
+- 3 Ga: Cyanobacteria evolve. Glaciation because of oxygen production, less methanogen production.- less greenhouse effect  
+    - Life on land: great oxydation event-> glaciation  
+    - Large carbon isotope signals for carbon fixation 
+    - Well developed stromatolites in ontario, south africa
+    - Large asteroid impact  
 
-3.5 Ga: Evidence for photosynthesis in microfossils, stromatolites, fossil biofilms   
-- rubisco
-- Sun weak, methane as greenhouse gas, warming shield
-- Archea and Bacteria split  
+- 2.7 Ga:  
+    - Well developed stromatolites
+    - Direct evidence for life: molecular fossils of biological lipids from western australia.
+    - Hydrocarbon biomarkers characteristic of cyanobacteria imply oxygenic photosynthesis
+    - Steranes as evidence for presence of eukaryotes
 
-3 Ga: Cyanobacteria evolve. Glaciation because of oxygen production, less methanogen production.- less greenhouse effect  
-- Life on land: great oxydation event-> glaciation  
-- Large carbon isotope signals for carbon fixation 
-- Well developed stromatolites in ontario, south africa
-- Large asteroid impact  
-
-2.7 Ga:  
-- Well developed stromatolites
-- Direct evidence for life: molecular fossils of biological lipids from western australia.
-- Hydrocarbon biomarkers characteristic of cyanobacteria imply oxygenic photosynthesis
-- Steranes as evidence for presence of eukaryotes
-
-2.2 Ga:  
-- Complex eukaryotes, oxygen level increased sharply -Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
-- Cellular cybernetic switch between mitochondria, chloroplasts. - may control link between photosynthesis and N fixation.
+- 2.2 Ga:  
+    - Complex eukaryotes, oxygen level increased sharply -Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct.  
+    - Cellular cybernetic switch between mitochondria, chloroplasts. - may control link between photosynthesis and N fixation.
 
 Proterozoic: 
 
-1.8 Ga: 
-- Eukaryotes, algae, symbiosis. 
-- Changing carbon cycle, several global glaciations.- snowball Earth
-- Macroscopic life forms  
+- 1.8 Ga: 
+    - Eukaryotes, algae, symbiosis. 
+    - Changing carbon cycle, several global glaciations.- snowball Earth
+    - Macroscopic life forms  
 
-1 Ga: 
-- First major ice age, large impact on carbon cycle  
+- 1 Ga: 
+    - First major ice age, large impact on carbon cycle  
 
-540 Ma: 
-- End of precambrian: Cambrian explosion
-- Emergence, diversification of animals. 
-- Expansion of mulitcellular evolution  
+- 540 Ma: 
+    - End of precambrian: Cambrian explosion
+    - Emergence, diversification of animals.    
+    - Expansion of mulitcellular evolution  
 
-Phanerozoic: 
-400 Ma: 
-- Devonian explosion: Land plants, gigantism   
-- Strong increased oxygenation of atmosphere  
-- Carboniferous period: fish, cephalopods, corals  
+Phanerozoic:  
 
-300 Ma: 
-- Permian extinction (95% of species)  
-- Followed by rapid speciation, rise of dinosaurs  
-- Formation of pangea, dry, harsh climate
+- 400 Ma: 
+    - Devonian explosion: Land plants, gigantism   
+    - Strong increased oxygenation of atmosphere  
+    - Carboniferous period: fish, cephalopods, corals  
 
-66 Ma: 
-- Cretaceous-tertiary extinction event
-- Dramatic global warming
-- Diversification of mammals, increasing size of mammals
-- Dominating forest  
+- 300 Ma: 
+    - Permian extinction (95% of species)  
+    - Followed by rapid speciation, rise of dinosaurs  
+    - Formation of pangea, dry, harsh climate
 
-23 Ma: 
-- Neogene; Ice age  
+- 66 Ma: 
+    - Cretaceous-tertiary extinction event
+    - Dramatic global warming
+    - Diversification of mammals, increasing size of mammals
+    - Dominating forest  
 
-6 Ma: 
-- First hominins
+- 23 Ma: 
+    - Neogene; Ice age  
 
-2.6 Ma: 
-- Quaternary period  
+- 6 Ma: 
+    - First hominins
 
-200'000 BP: 
-- Homo sapiens appears
+- 2.6 Ma: 
+    - Quaternary period  
+
+- 200'000 BP: 
+    - Homo sapiens appears
 
 
 
@@ -478,56 +488,56 @@ Phanerozoic:
 
 Hadean  
 
-4.6 Ga:  
-- High CO2 pressure; heat radiated to space
-- 500 degrees Celsius  
-- CO2 tied up in carbonate minerals (limestone)
-- Ocean filled with water
-- Water as greenhouse gas, as vapour high in atmosphere, phtolysed into hydrogen and oxygen, hydrogen lost to space
+- 4.6 Ga:  
+    - High CO2 pressure; heat radiated to space
+    - 500 degrees Celsius  
+    - CO2 tied up in carbonate minerals (limestone)
+    - Ocean filled with water
+    - Water as greenhouse gas, as vapour high in atmosphere, phtolysed into hydrogen and oxygen, hydrogen lost to space
 
-4.5 - 4 Ga: 
-- 100 degrees Celsius  
-- Many meteorite impacts, heating up earth to >100 degrees. -> ocean vapourized
-- Seawater chemistry controlled by volcanism
-- Ice house, CO2 rising as greenhouse gas
+- 4.5 - 4 Ga: 
+    - 100 degrees Celsius  
+    - Many meteorite impacts, heating up earth to >100 degrees. -> ocean vapourized
+    - Seawater chemistry controlled by volcanism
+    - Ice house, CO2 rising as greenhouse gas
 
 Archean  
 
-3.8 Ga: 
-- Meteorite bombardment halted.-> Seawater chemistry stabilized
-- Sulphur reduction
-- Methanogenesis: Greenhouse gas, heating up earth (Earth would have been glacial without methane shield because of weaker sun)  
+- 3.8 Ga: 
+    - Meteorite bombardment halted.-> Seawater chemistry stabilized
+    - Sulphur reduction
+    - Methanogenesis: Greenhouse gas, heating up earth (Earth would have been glacial without methane shield because of weaker sun)  
 
 
-3.5 Ga: 
-- Earth still anoxic
-- Hydrothermal, volcanogenic habitats
-- Microbes spread on coastal fringes, deeper water, deep hydrothermal vents  
+- 3.5 Ga: 
+    - Earth still anoxic
+    - Hydrothermal, volcanogenic habitats
+    - Microbes spread on coastal fringes, deeper water, deep hydrothermal vents  
 
-2.7 Ga:  
-- Well developed stromatolites
+- 2.7 Ga:  
+    - Well developed stromatolites
 
 Proterozoic 
 
-2.2 Ga:  
-- Oxygen level sharply increased.-> complex eukaryotes
-- Rocks recognized as red beds-> indicate oxidation
-- Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct. 
+- 2.2 Ga:  
+    - Oxygen level sharply increased.-> complex eukaryotes
+    - Rocks recognized as red beds-> indicate oxidation
+    - Change of anaerobic (microaerobic) air to oxic air leads to significant change of living biota.-> anaerobes go extinct. 
 
 Phanerozoic  
 
-500-0 Ga:  
-- Several ice ages
-- Species diversification
-- Mass extinctions
-- Complex global nutrient cycles emerge (carbon, oxygen, nitrgen)
+- 500-0 Ga:  
+    - Several ice ages
+    - Species diversification
+    - Mass extinctions
+    - Complex global nutrient cycles emerge (carbon, oxygen, nitrgen)
 
 ### Problem set 2
 
 
 [Falkowski et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
 
-• What are the primary geophysical and biogeochemical processes that create and sustain
+#### What are the primary geophysical and biogeochemical processes that create and sustain
 conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter
 and energy transformation and how are they interconnected?  
 
@@ -543,12 +553,12 @@ Biotic processes are based on redox reactions; electron transfers
 Biogeochemical processes depend on resupply of C, S and P by tectonic cycles in geological time-scales. Abiotic cycles  can supply biogeochemical reactions with new molecules carrying electrons which are required for the redox reactions.
 Therfore, abiotic acd/base reactions are interconnected with biotic redox reactions. Both reaction types support the other type with metabolites and energy required to sustain their cycles. This connection also leads to feedback on the microbial evolution, changing their metabolism and eventually the global redox state.
 
-• Why is Earth’s redox state considered an emergent property?
+#### Why is Earth’s redox state considered an emergent property?
 
 The Earth's redox state depends on microbial metabolism which in turn adapts to the properties of geochemical cycles and therefore is subject to constant change. Further, a large part of the Earth's redox state is determined by photosynthesis, which is a process independent of already available energy stored in metabolites.
 Thus, many different processes and cycles are nested in a complex manner and together lead to the Earth's redox state as an emergent property.
 
-• How do reversible electron transfer reactions give rise to element and nutrient cycles at
+#### How do reversible electron transfer reactions give rise to element and nutrient cycles at
 different ecological scales? What strategies do microbes use to overcome thermodynamic
 barriers to reversible electron flow?
 
@@ -556,7 +566,7 @@ Reversible metabolic pathways can be directly related and catalyzed by microbes 
 
 Thermodynamic barriers to reversible electron flow can be overcome by coupling the unfavourable reaction to an energy yielding reaction such as catabolism of organic compounds. Else, reactions can be made thermodynamically favourable by changing the redox couples in a manner that again leads to a positive redox potential of the wanted reaction. Different microbes use the end products of other microbes as their substrate. In photosynthesis for example, CO2 is used as an electron acceptor to generate reduced organic carbon. In this reaction, H2O, which is used as electron donor, gets oxidized to O2 as end product. Different organisms can then ireverse these reactions by using the organic carbon as electron donor and  O2 as electron acceptor.
 
-• Using information provided in the text, describe how the nitrogen cycle partitions between
+#### Using information provided in the text, describe how the nitrogen cycle partitions between
 different redox “niches” and microbial groups. Is there a relationship between the nitrogen
 cycle and climate change?
 
@@ -564,13 +574,13 @@ In this cycle, redox reactions are spatially and temporally separated and cataly
 
 Humans strongly affect the global nitrogen cycle. Extensive usage of synthetic nitrogen fertilizers and fossil fuel processing lead to strong increases of reactive nitrogen in the atmosphere. These nitrogen species affect the abundance of the greenhouse gases CO2, CH4, O3 and N2O and therefore contribute to global warming.  
 
-• What is the relationship between microbial diversity and metabolic diversity and how does this
+#### What is the relationship between microbial diversity and metabolic diversity and how does this
 relate to the discovery of new protein families from microbial community genomes?
 
 
 The huge amount of microbial cells and their fast turnover leads to an enourmous genetic diversity through mutations. A further mechanism strongly promoting microbial diversity and evolution is horziontal gene flow. In different envrionments, different selective pressures exist, which require specialized metabolic pathways. Therefore, the high genetic diversity and many different strong selective pressures lead to a huge metabolic diversity of microbes. This huge diversity can be observed by the fact that to date, the number of new protein families discovered still rises linearly with the number of newly sequenced genomes. This means, the microbial and metabolic diversity are so high, that the total number of genes and protein families are still unknown and can only be estimated very imprecisely
 
-• On what basis do the authors consider microbes the guardians of metabolism?
+#### On what basis do the authors consider microbes the guardians of metabolism?
 
 The core genes responsible for most of the environment-specific metabolic pathways are spread in microbes all over the world. In addition, essential genes for general houskeeping pathways are highly conserved among global microbes.
 
@@ -582,87 +592,92 @@ Different environments favour the evolution and survival of the best adapted mic
 
 #### Evaluate human impacts on the ecology and biogeochemistry of Earth systems
 
-• What were the main questions being asked?
+#### What were the main questions being asked?
 
 
- Whether humans changed the Earth system strong enough that the stratighrapic signature is altered in a way that the current epoch can be considered as distinct from the Holocene.
+- Whether humans changed the Earth system strong enough that the stratighrapic signature is altered in a way that the current epoch can be considered as distinct from the Holocene.  
 
 - To determine the time-point this human made stratigraphical signal became recognizable in a significant manner.
 
   
 In general: To rieview anthropogenic markers of changes in different systems ( biochemical cycles, sediment composition, sea-level, climate, biotic systems)
 
-• What were the primary methodological approaches used?
+#### What were the primary methodological approaches used?
 
 The paper is a review.
--> Results collected from other studies.  Measured concentrations of different molecules, isotope frequencies, temperatures etc from different places (soil, ocean, glacier etc). 
--> Other measurements also taken to reconstruct/ extrapolate/ estimate the corresponding values of past times in Earth's history.
--> Comparison of values from present and past times to infer whether humans have caused a significant change in stratighrapic signature
+-> Results collected from other studies.  Measured concentrations of different molecules, isotope frequencies, temperatures etc from different places (soil, ocean, glacier etc).  
+-> Other measurements also taken to reconstruct/ extrapolate/ estimate the corresponding values of past times in Earth's history.  
+-> Comparison of values from present and past times to infer whether humans have caused a significant change in stratighrapic signature.  
 
-• Summarize the main results or findings.
+#### Summarize the main results or findings.
 
-anthropogenic deposits: (great acceleration at ~1950 CE)
-- products of mining, waste desposal, construction, urbanization. (
-	- great expansion of new minerals: new geological materials with long term persistance (new "rocks")
-		- Aluminium, concrete, organic polymers: "technofossils", provide  stratigraphic resolution in time scales of years to decades.
-	-combustion of fossil fuels lead to global distribution of airborn particles: black carbon, inorganic ash spheres, sperical carbonaceous particles. These particles are long time persistent stratigraphic markers.
+Anthropogenic deposits: (great acceleration at ~1950 CE) 
 
-Modification of sedimentary processes:
-- Transformation of >50% of Earth's land surface: landfills, urban structure, mine tailings, deforestation, cultivated soils, sediment retention (dams, leading to reduced flux, subsided deltas)
-- Ocean: coastal reclamation works, sediment reworking, sand extraction, rising sea level, eutrophication, coral bleaching 
--Subsurface: mineral extraction, waste storage
+- Products of mining, waste desposal, construction, urbanization.  
+	- Great expansion of new minerals: new geological materials with long term persistance (new "rocks")  
+		- Aluminium, concrete, organic polymers: "technofossils", provide  stratigraphic resolution in time scales of years to decades.  
+	- Combustion of fossil fuels lead to global distribution of airborn particles: black carbon, inorganic ash spheres, sperical carbonaceous particles. These particles are long time persistent stratigraphic markers.  
 
-Geochemical signatures in sediments and ice:
-- Elevated concentrations of polyaromatic hydrocarbons, polychlorinated biphenyls, pesticide residues, lead, 
-- Fertilizer usage: doubled concentrations of nitrogen and phosphorus in soil. Influx to lakes led to oxygen deficiency, increased  animal mortality.
-- Decrease of ^15^N in lakes, ice sheet.
-- Increase in nitrate: values higher than any for the previous 100'000 years.-> distinct from Holocene background level.
-- Industrial metals: cadmium, chromium, copper, mercury, nickel, lead, zinc
+Modification of sedimentary processes:  
 
-Radiogenic signatures:
-- fallout from nuclear weapons testing: most widespread, globally synchronous anthropogenic signal.
-	-> Start of Anthropocene may be defined by detonation of the trinity atomic device at alamogordo, 1945.
-- Increased ^14^C, ^239^P ( ^239^P may be best radioisotope for marking the start of the Anthropocene because of long half-life and low solubility)
+- Transformation of >50% of Earth's land surface: landfills, urban structure, mine tailings, deforestation, cultivated soils, sediment retention (dams, leading to reduced flux, subsided deltas)  
+- Ocean: coastal reclamation works, sediment reworking, sand extraction, rising sea level, eutrophication, coral bleaching  
+- Subsurface: mineral extraction, waste storage  
 
-Carbon cycle:
-- Atmospheric CO2: >400 ppm, exceeding Holocene levels since 1850 CE
-- ^13^C levels decrease of > 0.2% because burning of fossil fuels leads to increase of ^12^C (organic carbon has increased ^12^C because lighter isotope reacts faster in biochemical reactions (photosynthesis)
-	- permanent signal, stored in tree rings, lime-stones, fossils
--Increase of methane to 1700 ppb, 900ppb higher than highest value in past 800'000 years
+Geochemical signatures in sediments and ice:  
 
-Climate and sea-level change
-- Given orbital trend, earth should be cooling ( as it was since 8200 B.P. untill 1800CE)
-- emission of greenhouse gases lead to climate warming
-- Average temperature increase of 06.-0.9 degrees from 1906 to 2005, exceeding natural variability
-- Average global sea levels are higher than highest levels of the past 115'000 years.
-- rise of 3.2 mm per year from 1993 to 2010
-- climate and sea-level changes are not as strong as other stratiraphic changes, but are likely to exceed the envelope of quaternary system baseline conditions.
--change in planetary energy balance: radiative forcing increased by 2.29 Wm^-2^ compared to 1750 CE. 8because of burning of fossil fuels)
+- Elevated concentrations of polyaromatic hydrocarbons, polychlorinated biphenyls, pesticide residues, lead.   
+- Fertilizer usage: Doubled concentrations of nitrogen and phosphorus in soil. Influx to lakes led to oxygen deficiency, increased  animal mortality.  
+- Decrease of ^15^N in lakes, ice sheet.  
+- Increase in nitrate: Values higher than any for the previous 100'000 years.-> distinct from Holocene background level.  
+- Industrial metals: cadmium, chromium, copper, mercury, nickel, lead, zinc.  
 
-Biotic change:
-- Extinction rates since 1500 CE are far above mean per-million-year background rates.
-- species abundances and assamblages strongly altered; transglobal species invasions, agriculture, fishing.
+Radiogenic signatures:  
+
+- Fallout from nuclear weapons testing: Most widespread, globally synchronous anthropogenic signal.  
+	-> Start of Anthropocene may be defined by detonation of the trinity atomic device at alamogordo, 1945.  
+- Increased ^14^C, ^239^P ( ^239^P may be best radioisotope for marking the start of the Anthropocene because of long half-life and low solubility)  
+
+Carbon cycle:  
+
+- Atmospheric CO2: >400 ppm, exceeding Holocene levels since 1850 CE.    
+- ^13^C levels decrease of > 0.2% because burning of fossil fuels leads to increase of ^12^C (organic carbon has increased ^12^C because lighter isotope reacts faster in biochemical reactions (photosynthesis)  
+	- Permanent signal, stored in tree rings, lime-stones, fossils.  
+- Increase of methane to 1700 ppb, 900ppb higher than highest value in past 800'000 years.  
+
+Climate and sea-level change  
+
+- Given orbital trend, earth should be cooling ( as it was since 8200 B.P. untill 1800CE)  
+- Emission of greenhouse gases lead to climate warming.  
+- Average temperature increase of 06.-0.9 degrees from 1906 to 2005, exceeding natural variability.    
+- Average global sea levels are higher than highest levels of the past 115'000 years.  
+- Rise of 3.2 mm per year from 1993 to 2010  
+- Climate and sea-level changes are not as strong as other stratiraphic changes, but are likely to exceed the envelope of quaternary system baseline conditions.  
+- Change in planetary energy balance: radiative forcing increased by 2.29 Wm^-2^ compared to 1750 CE. 8because of burning of fossil fuels)  
+
+Biotic change:  
+
+- Extinction rates since 1500 CE are far above mean per-million-year background rates.  
+- species abundances and assamblages strongly altered; transglobal species invasions, agriculture, fishing.  
 
 
-conclusion:
-- stratigraphic signatures are either novel or outside the range of variation of the holocene, supporting the formalization of the Anthropocene as stratigraphic epoch.
-- dating of begining of Anthropocene proposed to lay between 1945 and 1964 CE 
+Conclusion:  
 
-• Do new questions arise from the results?
+- stratigraphic signatures are either novel or outside the range of variation of the holocene, supporting the formalization of the Anthropocene as stratigraphic epoch.  
+- Dating of begining of Anthropocene proposed to lay between 1945 and 1964 CE   
 
-- Should the Anthropocene be formalized as epoch or left as informal time term?
-- How to define the Anthropocene. 
-	-> By GSSA (calendar age) or GSSP ( reference point in a stratal section)
-	-> Define start point of the Anthorpocene (1945-1964)?
--How are the stratigraphical changes going to proceed in the future? -> Make projections of climate, sea-level, biodiversity etc to future
+#### Do new questions arise from the results?  
 
-• Were there any specific challenges or advantages in understanding the paper (e.g. did the
-authors provide sufficient background information to understand experimental logic, were
-methods explained adequately, were any specific assumptions made, were conclusions justified
-based on the evidence, were the figures or tables useful and easy to understand)?
+- Should the Anthropocene be formalized as epoch or left as informal time term?  
+- How to define the Anthropocene?  
+	-> By GSSA (calendar age) or GSSP ( reference point in a stratal section)  
+	-> Define start point of the Anthorpocene (1945-1964)?  
+- How are the stratigraphical changes going to proceed in the future? -> Make projections of climate, sea-level, biodiversity etc to future  
 
-The Review mostly showed very well, on what data/assumptions/estimations their results are based. However, sometimes it was not clear, how the data were optained, i.e. which methods lead to the obtained results.
-Further, it is not always clear, how exact the obtained values for concentrations/ temperatures etc are. Especially for the estimations of the values for earlier points in time, some more information about error rates would have been useful. 
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?
+
+The Review mostly showed very well, on what data/assumptions/estimations their results are based. However, sometimes it was not clear, how the data were optained, i.e. which methods lead to the obtained results.  
+Further, it is not always clear, how exact the obtained values for concentrations/ temperatures etc are. Especially for the estimations of the values for earlier points in time, some more information about error rates would have been useful.   
 
 
 ### Module 1 assay
@@ -671,47 +686,55 @@ Further, it is not always clear, how exact the obtained values for concentration
 "Microbial life can easily live without us; we, however, cannot survive without the global
 catalysis and environmental transformations it provides."  
 
-Ever since the emergence of humans, we have been interacting with microbes. We live in symbiosis with microbes in many different aspects, which rises the important question whether we could survive without them. Microbial life emerged about 4.1 billion years before the first humans developed, which proofs that microbes can easily live without us. In contrast, confirming that humans cannot survive without the global catalysis provided by microbes, is much more challenging. Several aspects need to be considered in order to answer the question whether humans rely on the presence of microbes. Firstly, after their emergence, the microbes rapidly spread all over the earth and rose to incredible numbers of individuals. Secondly, fast reproduction and constant turnover of the cells leads to massive requirements of nutrients and thereby promotes the global turnover of these nutrients. The fast reproduction of microbes further generates an enormous genetic diversity through mutations, which allows the microbes to constantly adapt present pathways or even generate new metabolic processes. Through this extremely high abundance and diversity, microbes developed a massive potential not only to actively participate in, but also to significantly alter important biogeochemical cycles, which can be shown by several examples covered in this assay. Lastly, this potential for global catalysis leads to important, microbially driven environmental transformations on Earth, creating an inhabitable atmosphere. This not only allowed for the emergence of more complex organisms and the human species, but will also be important for human survival in the future.
+Ever since the emergence of humans, we have been interacting with microbes. We live in symbiosis with microbes in many different aspects, which rises the important question whether we could survive without them. Microbial life emerged about 4 billion years (1) before the first humans developed, which prooves that microbes can easily live without us. In contrast, confirming that humans cannot survive without the global catalysis provided by microbes, is much more challenging. Several aspects need to be considered in order to answer the question whether humans rely on the presence of microbes. Firstly, after their emergence, the microbes rapidly spread all over the earth and rose to incredible numbers of individuals. Secondly, fast reproduction and constant turnover of the cells leads to massive requirements of nutrients and thereby promotes the global turnover of these nutrients. The fast reproduction of microbes further generates an enormous genetic diversity through mutations, which allows the microbes to constantly adapt present pathways or even generate new metabolic processes. Through this extremely high abundance and diversity, microbes developed a massive potential not only to actively participate in, but also to significantly alter important biogeochemical cycles, which can be shown by several examples covered in this assay. Lastly, this potential for global catalysis leads to important, microbially driven environmental transformations on Earth, creating an atmosphere inhabitable by humans. This not only allowed for the emergence of more complex organisms and the human species, but will also be important for human survival in the future.
 
-Microbes have a massive potential to impact global cycles because of their sheer number of cells present. They account for by far the biggest part of the number of organisms alive on earth and arguably also the greatest part of nutrients stored in living beings. The number of prokaryotes living on earth could be obtained by cell counts of probes sampled from several different habitats. Subsequent projection and extrapolation for habitats not available for sampling led to an estimation of 4-6*1030 cells present (Whitman, Coleman, and Wiebe 1998). Considering average values of nutrient contents per cell, leads to the conclusion that microbes totally contain 60-100% of the amount of carbon stored in plants. The fraction of nitrogen and phosphorus stored in microbes is even higher, with about ten times more of these elements stored in microbes than in plants. These numbers show, that through their enormous abundance and capacity, microbes technically have the potential to provide important global catalysis.  
+Microbes have a massive potential to impact global cycles because of their sheer number of cells present. They account for by far the biggest part of the number of organisms alive on earth and arguably also the greatest part of nutrients stored in living beings. The number of prokaryotes living on earth could be obtained by cell counts of probes sampled from several different habitats. Subsequent projection and extrapolation for habitats not available for sampling led to an estimation of 4-6*1030 cells present (2). Considering average values of nutrient contents per cell, leads to the conclusion that microbes totally contain 60-100% of the amount of carbon stored in plants. The fraction of nitrogen and phosphorus stored in microbes is even higher, with about ten times more of these elements stored in microbes than in plants (2). These numbers show, that through their enormous abundance and capacity, microbes technically have the potential to provide important global catalysis.  
      
-In addition to the huge number of microbial cells, their fast turnover rates generate an even higher potential of the microbes to significantly catalyze and transform global cycles. An average turnover rate of 22 turnovers per year leads to about 8.2*1029 heterotrophic cells produced every year, just in the upper 200 meters of the ocean. Therefore, the vast amounts of cells continuously being produced further explains their impact on global cycles as their constant metabolism leads to massive requirements and turnover of nutrients. The constant turnover of prokaryotes additionally offers the opportunity to generate an enormous genetic diversity through billions of mutation events. The large genetic variation leading to continuous adaptation through evolution enables the bacteria to constantly generate new metabolic pathways and cycles. In summary, the fast microbial reproduction accounts for high nutrient requirement, global circulation of these nutrients and generation of metabolic diversity through evolving cells. This allows for the conclusion, that microbes have the potential to significantly transform the environment and even catalyze global cycles in such a powerful way that humans become dependent on their presence on Earth.  
+In addition to the huge number of microbial cells, their fast turnover rates generate an even higher potential of the microbes to significantly catalyze and transform global cycles. An average turnover rate of 22 turnovers per year leads to about 8.2*1029 heterotrophic cells produced every year, just in the upper 200 meters of the ocean (2). Therefore, the vast amounts of cells continuously being produced further explains their impact on global cycles as their constant metabolism leads to massive requirements and turnover of nutrients. The constant turnover of prokaryotes additionally offers the opportunity to generate an enormous genetic diversity through billions of mutation events (2). The large genetic variation leading to continuous adaptation through evolution enables the bacteria to constantly generate new metabolic pathways and cycles. In summary, the fast microbial reproduction accounts for high nutrient requirement, global circulation of these nutrients and generation of metabolic diversity through evolving cells. This supports the conclusion, that microbes have the potential to significantly transform the environment and even catalyze global cycles in such a powerful way that humans become dependent on their presence on Earth.  
      
-The enormous abundance, turnover and diversity provides a huge potential for the microbes to actively contribute to the composition of Earth’s properties. These contributions thereby are of such importance that humans would not be able to survive without microbes providing them, which can be shown by several examples. Firstly, marine microorganisms are responsible for the generation of nearly all of the oxygen present in the atmosphere (Kasting and Siefert 2002). The oxygen produced by plants only contributes to a small fraction of atmospheric oxygen because most of the O2 produced by plants is used up again by their own respiratory processes and upon decay of dead plant material. Therefore, the oxygen produced by microbes is substantial for human respiration and hence, also existence. Second, Earth’s redox state depends mostly on microbial life and therefore is an emergent property of their existence (Falkowski, Fenchel, and Delong 2008). This means, the global fluxes of some of the most important elements (H, C, N, O, S) are controlled in large parts by redox reactions which are catalyzed by prokaryotes. Thus, microbial photosynthesis not only provides humans with breathable air, but also drives the Earth’s oxidation in general, and finally, supplies heterotrophic organisms with reduced carbon. Further, not only photosynthesis, but many other microbial processes contribute to important global nutrient cycles. One example for a cycle largely controlled by microbes is the nitrogen cycle. Microbes catalyze all the steps present in the global nitrogen cycle and thereby control the oxidation state in which the nitrogen species are present in Earth’s atmosphere, soil and oceans. Many other prokaryotes and eukaryotes, that cannot process atmospheric nitrogen, rely on the supply of these nitrogen species provided by nitrogen-fixing microbes. Also humans rely on fixed nitrogen, which initially is provided by microbes and wanders through the food chain until eventually taken up as part of the human nourishment. All of these examples show, that the global nutrient cycles which are in large parts controlled by microbes, are of such importance, that human existence relies on their catalysis provided by microbes.  
+The enormous abundance, turnover and diversity provides a huge potential for the microbes to actively contribute to the composition of Earth’s properties. These contributions thereby are of such importance that humans would not be able to survive without microbes providing them, which can be shown by several examples. Firstly, marine microorganisms are responsible for the generation of nearly all of the oxygen present in the atmosphere (3). The oxygen produced by plants only contributes to a small fraction of atmospheric oxygen because most of the O2 produced by plants is used up again by their own respiratory processes and upon decay of dead plant material (3). Therefore, the oxygen produced by microbes is substantial for human respiration and hence, also existence. Second, Earth’s redox state depends mostly on microbial life and therefore is an emergent property of their existence (4). This means, the global fluxes of some of the most important elements (H, C, N, O, S) are controlled in large parts by redox reactions which are catalyzed by prokaryotes. Thus, microbial photosynthesis not only provides humans with breathable air, but also drives the Earth’s oxidation in general, and finally, supplies heterotrophic organisms with reduced carbon. Further, not only photosynthesis, but many other microbial processes contribute to important global nutrient cycles. One example for a cycle largely controlled by microbes is the nitrogen cycle (4). Microbes catalyze all the steps present in the global nitrogen cycle and thereby control the oxidation state in which the nitrogen species are present in Earth’s atmosphere, soil and oceans. Many other prokaryotes and eukaryotes, that cannot process atmospheric nitrogen, rely on the supply of these nitrogen species provided by nitrogen-fixing microbes. Also humans rely on fixed nitrogen, which initially is provided by microbes and wanders through the food chain until eventually taken up as part of the human nourishment. All of these examples show, that the global nutrient cycles, which are in large parts controlled by microbes, are of such importance, that human existence relies on their catalysis provided by microbes.  
      
-The potential of microbes to catalyze global processes does not only affect nutrient cycles, but also the global environment and climate. Microorganisms can significantly change the climate by altering the atmospheric composition. The production of several gases like methane and nitrous oxide strongly influences the global climate through the greenhouse effect. The great importance of this effect for the survival of organisms can be shown not only for present days, but also for early stages in time. In the distant past, about 3.5 billion of years ago, microbial methane production might have contributed to a global shield, warming up the planet (Nisbet and Sleep 2001). At this time, the sun was much weaker than today and therefore, without a greenhouse gas like methane, Earth would have been completely frozen over. By keeping the earth from freezing, this methane shield might have allowed for fast reproduction, leading to evolution and the emergence of more complex life-forms. About 500 million years later, microbes again significantly transformed the environment. The emergence of photosynthetic cyanobacteria led to a strong increase of the oxygen level in the atmosphere. This resulted in decreased viability of methanogenic organisms and therefore decreased methane concentrations, which in turn reduced the greenhouse effect. The consequence was a global glaciation, again significantly changing the composition of organisms capable of living on Earth. In summary, in the absence of microbes, the global environment with its properties as present now, could not have been created. In a world depleted of the global catalysis provided by microbes, Earth’s environment would have been very unfavorable for the emergence of complex life forms as they are present today. As the past times show, a stable environment, which can be provided and maintained by microbes, will also be necessary for humans to live in future times. If humans wanted to survive without microbes, they would have to artificially control all the cycles currently run by microbes. This, however, is most likely not possible. Humans will not be able to replace all the microbially driven cycles in an efficient way. We are not able to generate machines catalyzing processes as efficient as microbes do after millions of years of evolution. Further, as microbial diversity is unimaginably high, the range of the processes they catalyze can always adapt quickly to changing conditions. Humans will not be able to adapt their engineered machines fast enough in order to provide sufficient flexibility to changing demands.
+The potential of microbes to catalyze global processes does not only affect nutrient cycles, but also the global environment and climate. Microorganisms can significantly change the climate by altering the atmospheric composition (1, 3, 4). The production of several gases like methane and nitrous oxide strongly influences the global climate through the greenhouse effect (1, 3). The great importance of this effect for the survival of organisms can be shown not only for present days, but also for early stages in time. In the distant past, about 3.5 billion of years ago, microbial methane production might have contributed to a global shield, warming up the planet (1). At this time, the sun was much weaker than today and therefore, without a greenhouse gas like methane, Earth would have been completely frozen over. By keeping the earth from freezing, this methane shield might have allowed for fast reproduction, leading to evolution and the emergence of more complex life-forms. About 500 million years later, microbes again significantly transformed the environment. The emergence of photosynthetic cyanobacteria led to a strong increase of the oxygen level in the atmosphere (1). This resulted in decreased viability of methanogenic organisms and therefore decreased methane concentrations, which in turn reduced the greenhouse effect. The consequence was a global glaciation, again significantly changing the composition of organisms capable of living on Earth (1). In summary, in the absence of microbes, the global environment with its properties as present now, could not have been created. In a world depleted of the global catalysis provided by microbes, Earth’s environment would have been very unfavorable for the emergence of complex life forms as they are present today. As the past times show, a stable environment, which can be provided and maintained by microbes, will also be necessary for humans to live in future times. If humans wanted to survive without microbes, they would have to artificially control all the cycles currently run by microbes. This, however, is most likely not possible. Humans will not be able to replace all the microbially driven cycles in an efficient way. We are not able to generate machines catalyzing processes as efficient as microbes do after millions of years of evolution. Further, as microbial diversity is unimaginably high, the range of the processes they catalyze can always adapt quickly to changing conditions. Humans will not be able to adapt their engineered machines fast enough in order to provide sufficient flexibility to changing demands.
      
-In summary, the enormous number of prokaryotic cells present, their fast turnover and the high genetic diversity offer an unimaginable potential for the microbes to significantly contribute to the presence and properties of biogeochemical cycles. Microbes provide a global environment-composition which allowed for the emergence of humans and will also in the future be necessary for our persistence. From the beginning of our existence, we have been living in symbiosis with microbes. We do not only interact with microbes living in and on our bodies, but also with the global biogeochemical cycles they are a significant part of. Artificially replacing all of the processes provided by microbes will not be possible in a sufficient way. Therefore, existence of human life without the presence of microbes is most likely not possible as our survival strongly depends on stable global cycles, kept intact by microbes. Microbes have been the guardians of global metabolism for billions of years(Waters et al. 2016). It is very unlikely that humans could further exist without microbes present, continuously guarding global metabolic processes. A new question that arises is however, how likely it is, that the human race eventually manages to destroy this essential function of the microbes as guardians of global metabolism.  
+In summary, the enormous number of prokaryotic cells present, their fast turnover and the high genetic diversity offer an unimaginable potential for the microbes to significantly contribute to the presence and properties of biogeochemical cycles. Microbes provide a global environment-composition which allowed for the emergence of humans and will also in the future be necessary for our persistence. From the beginning of our existence, we have been living in symbiosis with microbes. We do not only interact with microbes living in and on our bodies, but also with the global biogeochemical cycles they are a significant part of. Artificially replacing all of the processes provided by microbes will not be possible in a sufficient way. Therefore, existence of human life without the presence of microbes is most likely not possible as our survival strongly depends on stable global cycles, kept intact by microbes. Microbes have been the guardians of global metabolism for billions of years (5). It is very unlikely that humans could further exist without microbes present, continuously guarding global metabolic processes. A new question that arises is however, how likely it is, that the human race eventually manages to destroy this essential function of the microbes as guardians of global metabolism?  
 
 #### References  
 
-Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.  
+1. Nisbet, E. G., and N. H. Sleep. 2001. 'The habitat and nature of early life', Nature, 409: 1083.
 
-Kasting, J. F., and J. L. Siefert. 2002. 'Life and the evolution of Earth's atmosphere', Science, 296: 1066-8.  
+2. Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
 
-Nisbet, E. G., and N. H. Sleep. 2001. 'The habitat and nature of early life', Nature, 409: 1083.  
+3. Kasting, J. F., and J. L. Siefert. 2002. 'Life and the evolution of Earth's atmosphere', Science, 296: 1066-8.
 
-Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clément Poirier, Agnieszka Gałuszka,  
+4. Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.  
+
+5. Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clément Poirier, Agnieszka Gałuszka,  
 Alejandro Cearreta, Matt Edgeworth, Erle C. Ellis, Michael Ellis, Catherine Jeandel, Reinhold Leinfelder, J. R. McNeill, Daniel deB. Richter, Will Steffen, James Syvitski, Davor Vidas, Michael Wagreich, Mark Williams, An Zhisheng, Jacques Grinevald, Eric Odada, Naomi Oreskes, and Alexander P. Wolfe. 2016. 'The Anthropocene is functionally and stratigraphically distinct from the Holocene', Science, 351.  
 
-Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
+
+
 
 
 ### Module 01 references
 
 
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
-Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.
+Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  
+[Whitman et al. 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+Falkowski, P. G., T. Fenchel, and E. F. Delong. 2008. 'The microbial engines that drive Earth's biogeochemical cycles', Science, 320: 1034-9.  
+[Falkowski et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
 
 
 Kasting, J. F., and J. L. Siefert. 2002. 'Life and the evolution of Earth's atmosphere', Science, 296: 1066-8.  
+[Kasting et al. 2002](http://science.sciencemag.org/content/296/5570/1066)
 
 Nisbet, E. G., and N. H. Sleep. 2001. 'The habitat and nature of early life', Nature, 409: 1083.  
+[Nisbet et al. 2001](https://www.nature.com/articles/35059210)
+
 
 Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clément Poirier, Agnieszka Gałuszka,  
 Alejandro Cearreta, Matt Edgeworth, Erle C. Ellis, Michael Ellis, Catherine Jeandel, Reinhold Leinfelder, J. R. McNeill, Daniel deB. Richter, Will Steffen, James Syvitski, Davor Vidas, Michael Wagreich, Mark Williams, An Zhisheng, Jacques Grinevald, Eric Odada, Naomi Oreskes, and Alexander P. Wolfe. 2016. 'The Anthropocene is functionally and stratigraphically distinct from the Holocene', Science, 351.  
-
-Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen majority', Proc Natl Acad Sci U S A, 95: 6578-83.
+[Waters et al. 2016](http://science.sciencemag.org/content/351/6269/aad2622)
 
 # Module 2
 ### Problem set 03
@@ -719,19 +742,25 @@ Whitman, W. B., D. C. Coleman, and W. J. Wiebe. 1998. 'Prokaryotes: the unseen m
 [Wooley et al. 2010](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000667)
 [Madsen et al. 2005](https://www.ncbi.nlm.nih.gov/pubmed/15864265)
 
-• How many prokaryotic divisions have been described and how many have no cultured
+#### How many prokaryotic divisions have been described and how many have no cultured
 representatives (microbial dark matter)? 
 
 More than 40 major bacterial divisons and 12 divisions in archeae have been described (1,2).
 The total number of microbial species on earth is estimated to be up to 10^12^ (3).
 Up to 99.8% of microbial species are not culturable (4).
 
+
 1. [Pace et al. 1997](https://www.ncbi.nlm.nih.gov/pubmed/9115194)  
 2. [DeLong et al. 2001](https://www.ncbi.nlm.nih.gov/pubmed/12116647)  
-3. [Locey et al. 2016](http://www.pnas.org/content/113/21/5970)
+3. [Locey et al. 2016](http://www.pnas.org/content/113/21/5970)  
 4. [Streit et al 2004](https://www.ncbi.nlm.nih.gov/pubmed/15451504)  
 
-• How many metagenome sequencing projects are currently available in the public domain
+In-class solution:  
+89 bacterial phyla, 20 archaeal phyla  
+->But could be up to 1500 bacterial phyla  
+->26 of 52 major bacterial phyla have been cultivated.(But only few examples for some phyla.-> still most species uncultivated)
+
+#### How many metagenome sequencing projects are currently available in the public domain
 and what types of environments are they sourced from?
 
 The Gold database counts 1424 Metagenomic studies, with 51513 sequencing projects  
@@ -741,100 +770,480 @@ The main environment types are:
 -Marine  
 -Soil  
 -Sediment  
--Gut of humans/ animals  
+-Gut of humans/ animals 
+-Especially environments where it is hard to cultivate communities in the lab.
 
-• What types of on-line resources are available for warehousing and/or analyzing
+#### What types of on-line resources are available for warehousing and/or analyzing
 environmental sequence information (provide names, URLS and applications)?
 
-BLAST: find homologs  
-[BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  
+Types of resources cover metagenomics Assembly, Binning, Annotation, Analysation. Some examples are: 
 
-RAMMCAP: clusters translated ORFs by sequence similarity, can also be used to compare metagenomes.  
-[RAMMCAP](http://weizhong-lab.ucsd.edu/rammcap/rammcap_20130510.html)    
+Shtogun metagenomics:  
 
-MG-RAST: gene calling and annotation by sequence similarity  
-[MG_RAST](https://metagenomics.anl.gov/) 
+  - Assembly:  
+  [EULER](https://omictools.com/euler-sr-tool)
 
-Pfam: protein family database, uses Hidden markov model  
-[Pfam](http://pfam.xfam.org/) 
+  - Binnig:  
+  - MEGAN, CARMA, Phymm: For toxonomy-dependent binning  
+  [MEGAN](http://ab.inf.uni-tuebingen.de/data/software/megan5/download/welcome.html)  
+  [CARMA](https://omictools.com/carma-tool)  
+  [Phymm](https://omictools.com/phymm-phymmbl-tool)  
+  (MEGAN: Also for comparing OTUs of different samples)    
 
-MEGAN, CARMA, Phymm: For toxonomy-dependant binning  
-[MEGAN](http://ab.inf.uni-tuebingen.de/data/software/megan5/download/welcome.html)  
-[CARMA](https://omictools.com/carma-tool)  
-[Phymm](https://omictools.com/phymm-phymmbl-tool)  
+  - TETRA: Taxonomy-independent binning  
+  [TETRA](http://www.megx.net/tetra) 
 
-MEGAN: also for comparing OTUs of different samples  
+  - Annotation:  
+  KEGG: Metabolic pathways, combining genes, proteins, metabolites
+  [KEGG](http://www.genome.jp/kegg/)    
 
-TETRA: taxonomy-independant binning  
-[TETRA](http://www.megx.net/tetra)  
+  - Analysis:  
+  [Megan 5](http://ab.inf.uni-tuebingen.de/data/software/megan5/download/welcome.html)  
+
+  - MG-RAST: Gene calling and annotation by sequence similarity. - Analysis and processing database.  
+  [MG_RAST](https://metagenomics.anl.gov/) 
+
+Marker Gene metagenomics:
+
+  - Standalone software:  
+  [OTUbase](https://www.bioconductor.org/packages/release/bioc/html/OTUbase.html)  
+
+  - Analysis:  
+  [SILVA](https://www.arb-silva.de/)
+
+  - Denoising:  
+  [AmpliconNoise](http://nebc.nox.ac.uk/bioinformatics/docs/Ampliconnoise.html)  
+
+  - Databases:  
+  [Ribosomal Database Project (RDP)](https://rdp.cme.msu.edu/)
 
 
-UniFrac, MetaStats: To compare metagenomes based on phylogenetic data  
-[UniFrac](http://bmf.colorado.edu/unifrac)  
-[MetaStats](http://www.cbcb.umd.edu/software/metastats)  
 
-ShotgunFunctionalizeR: Metagenome analysation in R  
-[ShotgunFunctionalizeR](http://shotgun.zool.gu.se)  
 
-Wooley et al. 2010
+- Some more online sources: 
 
-• What is the difference between phylogenetic and functional gene anchors and how can
-they be used in metagenome analysis?
+  - BLAST: Finding homologs in DNA/ protein sequences  
+  [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  
 
-Phylogenetic gene anchors are used to determine the different OTUs present in a sample and to order them in a tree. 16s RNA is mostly used as phylogenetic anchor gene.
-Functional gene anchors show the genes for important metabolic functions that are present in a certain environment. These can be used to determine the specific metabolic potential of a community in its respective environment.
+  - RAMMCAP: Clusters translated ORFs by sequence similarity, can also be used to compare metagenomes.  
+  [RAMMCAP](http://weizhong-lab.ucsd.edu/rammcap/rammcap_20130510.html)    
+
+  - Pfam: Protein family database, uses Hidden markov model  
+  [Pfam](http://pfam.xfam.org/) 
+
+
+  - UniFrac, MetaStats: To compare metagenomes based on phylogenetic data  
+  [UniFrac](http://bmf.colorado.edu/unifrac)  
+  [MetaStats](http://www.cbcb.umd.edu/software/metastats)  
+
+  - ShotgunFunctionalizeR: Metagenome analysation in R  
+  [ShotgunFunctionalizeR](http://shotgun.zool.gu.se)  
+
+sources: [Oulas et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4426941/)
+and Wooley et al. 2010 
+
+#### What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?
+
+Phylogenetic gene anchors: 
+
+- Are used to determine the different OTUs present in a sample and to order them in a tree. 16s RNA is mostly used as phylogenetic anchor gene.
+- Vertical gene transfer
+- Ideally single-copy genes
+- Taxonomic
+
+Functional gene anchors: 
+
+- Show the genes for important metabolic functions that are present in a certain environment. These can be used to determine the specific metabolic potential of a community in its respective environment. 
+- More horizontal gene transfer, therefore not so usefull for phylogeny
 
 [Krause et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18285365)
 
-• What is metagenomic sequence binning? What types of algorithmic approaches are
-used to produce sequence bins? What are some risks and opportunities associated with
-using sequence bins for metabolic reconstruction of uncultivated microorganisms?
+#### What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?
 
-Binning: build longer sequences from overlapping fragments and assign them to OTUs  
-Approaches:  
--Taxonomy-dependent: Supervised  
-	-sequenes get assigned to homologs in reference sequence databases, often using BLAST  
-	-OTUs can be assigned to a last common ancestor.-> Phylogenetic trees are established. (MEGAN/ CARMA/ Phymm algorithm)  
-	-Good method if sequences are similar to referencce sequence.  
--Composition-dependant: Unsupervised  
-	- No reference sequences needed. -> good for unknown sequences without homologs  
+
+Binning: To build longer sequences from overlapping fragments and assign them to OTUs. -> Group fragments together that come from the same genome.    
+Approaches: 
+
+- Taxonomy-dependent: Supervised  
+	- Sequences get assigned to homologs in reference sequence databases, often using BLAST  
+	- OTUs can be assigned to a last common ancestor.-> Phylogenetic trees are established. (MEGAN/ CARMA/ Phymm algorithm)  
+  - Good method if sequences are similar to referencce sequence.  
+	
+- Composition-dependent: Unsupervised  
+	- No reference sequences needed. -> Good for unknown sequences without homologs  
 	- Assignment based on GC content or short nucleotide sequences like tetranucleotides (TETRA algorithm).  
-	- Other method: based on codon-usage: Cann be combined with TETRA to improve binning.  
+	- Other method: Based on codon-usage: Cann be combined with TETRA to improve binning.  
 
-- Assambling algorithm: Represent each read a vertex and detect overlapping vertices. Find correct assembly: NP- Hamiltonian path problem.-> gets too time expensive when amount of fragments is too high, as produced by second gen sequencing of metagenome. Solution: use k-mer words instead of the whole reads. -> Assembling can now be done in linear-time with Eulerian path.   
+- Assambling algorithm: Represent each read as a vertex and detect overlapping vertices. Find correct assembly: NP- Hamiltonian path problem.-> gets too time expensive when amount of fragments is too high, as produced by second gen sequencing of metagenome. Solution: use k-mer words instead of the whole reads. -> Assembling can now be done in linear-time with Eulerian path.   
 - Other method: ORFome assembly: First find putative open reading frames and then assemble only these regions. - Problem: non-coding regions or undetected ORFs get lost.(Wooley et al, 2010)
 
-Risks:   
--Composition-based binning has high missclassification rates, especially when many, close related OTUs present in the sample.  
--Assembling sequences from different OTUs together. This generates interspecies chimeras which don't represent the actual metabolic potential of an exisisting OTU.   
--Not DNA from all organisms of the habitat present, some are more abundant.  
--ORFs often not detected because fragments only contain parital ORFs
-Some sequences cannot be assigned:   
-Long repeat sequences, sequences that have no homologs in database yet  
-Cloning bias: some sequences do not get incorporated in cloning vector because they are toxic for the host  
-Opportunities: To infer the genomic/metabolic potential of whole communities. Fast and efficient process, algorithms. Algorithms are continously improving.  
+Risks:  
 
-Source: Previous genomics lecture at ETH Zürich and Wooley et al, 2010
+- Composition-based binning has high missclassification rates, especially when many close related OTUs present in the sample.  
+- Assembling sequences from different OTUs together. This generates interspecies chimeras which don't represent the actual metabolic potential of an exisisting OTU.   
+- Not DNA from all organisms of the habitat present, some are more abundant. 
+- Not the whole genomes covered in the samples.
+- ORFs often not detected because fragments only contain parital ORFs
+- Some sequences cannot be assigned:   
+  Long repeat sequences, sequences that have no homologs in database yet  
+- Cloning bias: Some sequences do not get incorporated in cloning vector because they are toxic for the host  
 
+Opportunities:  
 
-• Is there an alternative to metagenomic shotgun sequencing that can be used to access
-the metabolic potential of uncultivated microorganisms? What are some risks and
-opportunities associated with this alternative?
+  - To infer the genomic/metabolic potential of whole communities. 
+  - Fast and efficient process, algorithms. 
+  - Algorithms are continously improving.  
+
+Source: Previous genomics lecture at ETH Zürich and Wooley et al, 2010  
+
+(In-class solution:  
+Binning is the process of grouping sequences that come from a single genome   
+Types of algorithms:  
+1. Align sequences to database  
+2. Group to each other based on DNA characteristics: GC content, Codon Usage
+
+Risks:  
+
+- Incomplete coverage of genome sequence  
+- Contaminaton from different phylogeny)
+
+#### Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?
+ 
+
+Single Cell sequencing:
+Single cells are separated, the genome amplified using a special polymerase and then sequenced.
 
 Polymerase colonies: Polonies  
 The sampled DNA is diluted to separate the single DNA fragments. Single nucleic acids are then amplified by a polymerase. The amplicons can then be sequenced using a next generation sequencing technique like Illumina.
 
 Second Generation sequencing (Illumina):  
-DNA gets amplified by bridge amplificationo, fragments get sequenced by synthesis, in parallel.
+DNA fragments get amplified by bridge amplificationo, fragments get sequenced by synthesis, in parallel.
 
 Advantage: More sequences produced than in shotgun-sanger sequencing, cheap per bp, sensitive because of amplification, only ng amounts of DNA needed.   
 Problem: The produced sequences are shorter, which makes binning more difficult.
 
 Third generation sequencing:  
-PacBio or Oxford Nanopore  
+PacBio or Oxford Nanopore 
+
 - Single DNA molecules get directly real-time sequenced.  
 Advantage: No amplification needed, very long reads, fast, good for difficult genomes, eg with long repeat sequences
 With third gen sequencing, even unassembled reads can be used to identify the metabolic function. The long single reads can be directly BLASTed to find ORFs  
 Disadvantage: Higher per-base pair costs, less fragments, more sample needed (ug in 3rd gen vs ng in second gen)
 
+Other methods:   
+
+- Functional screens (biochemical):
+Directly asses the metabolic potential of a colony/community for example by testing the ability to use a certain substrate.
+- FISH probe:
+In situ hybridization with 16sRNA oligos or mRNA matching oligos to observe expressed genes, metabolic potential of a community
+
 Source: Previous genomics lecture at ETH Zürich and Wooley et al, 2010
+
+
+### Evidence worksheet 04
+
+[Martinez et al. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+#### What were the main questions being asked?  
+
+- The main goal was to characterize the proteorhodopsin (PR) photosystem structure, function and genetics. (PR are retinal binding membrane proteins that catalyze light activated proton transfer across the cell membrane. PR are found globally in a broad range of marine bacteria and archaea in the photic zone.)   
+- To identify the minimal genetic requirements to transfer phototrophy to a heterologus host.
+    -  Whether PR can be functionally expressed in E. coli and if there are other genes (eg for biosynthesis of cofactors like retinal...) required to induce photophosphorylation.  
+
+#### What were the primary methodological approaches used?  
+
+- Take DNA from the environment, transfer it to E. coli, induce an observable phenotype. -> Program a heterologus host and look for gene expression responsible for the induced phenotype.
+
+- E. coli cells were transformed with a large-insert fosmid DNA library from marine picoplankton.  
+- The cells were then screened for PR-containing clones which were expected to show an organge phenotype when grown on retinal containing media. A vector copy-control system was used to enhance the assay sensitivity by inducing high copy numbers of the vector and therefore higher expression. (L-arabinose was used to induce single copy vector to replicate to up to 100 copies)  
+- The isolated vectors which induced the phenotype were sequenced by transposon-sequencing.  
+- The generated transposon mutants were further analyzed to confirm the functional annotation of the cloned photosystem biosynthesis genes. The transposon mutants did not show the orange pigmentation phenotype anymore and HPLC analysis showed, that retinal production was inhibited. this confirmed that the cloned genes are necessary and sufficient for retinal biosynthesis.  
+- Light activated PR-catalyzed proton transfer was confirmed by measuring the pH in media containing PR+ or PR- colonies.  
+- Light induced ATP synthesis was tested by measuring ATP levels with a luciferase assay. As controls, DCCD and CCCP were added to the cells to inhibit the ATPsynthase or generate a H+ permeable membrane respectively  
+
+#### Summarize the main results or findings.  
+
+- PR-based photosystems can be functionally expressed in E. coli, even without addition of exogenous retinal:  
+Three colonies were found that showed the orange phenotype. These clones exhibited orange pigmentation even in abscence of exogenous retinal, which indicates that the cells not only obtained the PR gene, but also genes for retinal biosynthesis. Sequencing revealed that a operon containing six genes involved in beta-carotene and retinal biosynthesis was located adjacent to the PR gene. This means, the retina biosynthetic pathway is associated with the PR gene and these genes can radily be transfered together.
+
+- In these transformed E.coli colonies, light activates PR catalyzed proton transport through the cell membrane, generating a proton gradient.  
+
+- The light activated PR catalyzed proton translocation activates photophosphorylation (ATP synthesis by ATP synthase). This shows that a single DNA transfer of the PR gene and its associated retina biosynthesis genes can result in the acquisition of photrophism in E. coli. The opportunity of horizontal gene transfer of the PR gene and associated retinal operon explains the high abundance of PR photosystems amongst different microbes. Even chemoorganotrophic microbes can easily acquire the ability to perform photophosphorylation by just a simple horizontal gene transfer.
+
+- Another result is that they could show that increasing fosmid copy number could enhance gene expression, which facilitates screens where the observation of phenotypes is necessary.  
+
+#### Do new questions arise from the results?
+
+- A direct link between PR and enhanced growth induced by light is not definitely shown yet, but the results in this paper in combination with previous findings strongly support the role of PR catalyzed phototrophy in marine microbes.
+ 
+- Whether the light induced PR-dependent ATP generation could be used in industrial biotechnology.
+
+- Whether PR has other effects like sensory functions.
+
+- In what conditions PR is most important. -> e.g. in starvation, anaerobic conditions.
+
+- Wheter the PR generated proton gradient is used for other functions like flagellar motility or active transmembrane transport. 
+
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+
+The paper was very well written and understandable, with clear explanations of methods, figures, results and conclusions.
+
+### Module 2 References
+
+[Wooley et al. 2010](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000667)  
+[Madsen et al. 2005](https://www.ncbi.nlm.nih.gov/pubmed/15864265)  
+[Pace et al. 1997](https://www.ncbi.nlm.nih.gov/pubmed/9115194)  
+[DeLong et al. 2001](https://www.ncbi.nlm.nih.gov/pubmed/12116647)  
+[Locey et al. 2016](http://www.pnas.org/content/113/21/5970)  
+[Streit et al 2004](https://www.ncbi.nlm.nih.gov/pubmed/15451504)  
+[Oulas et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4426941/)  
+[Krause et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18285365)  
+[Martinez et al. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+# Module 3
+### Problem set 04
+```{r}
+library(kableExtra)
+library(knitr)
+library(tidyverse)
+library(vegan)
+```
+
+#### Part 1
+```{r}
+data1 = data.frame(
+  number = c(1:32),
+  name = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue" ),
+  characteristics = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue"),
+  occurences = c(28,28,60,44,30,63,39,33,42,35,23,15,16,18,15,19,16,39,36,27,32,40,14,4,5,3,5,7,16,7,5,4)
+)
+
+data1 %>% 
+  kable("html") %>%
+  kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
+  
+```
+
+#### Ask yourself if your collection of microbial cells from seawater represents the actual diversity of microorganisms inhabiting waters along the Line-P transect. Were the majority of different species sampled or were many missed?
+
+There might be many species missed, as we only have 32 different species
+
+#### Part 2
+```{r}
+y = c(1,2,3,4,5,6,7,7,7,8,9,9,10,11,12,13,14,15,16,16,17,18,18,18,19,19,19,19,19,20,20,20,21,21,21,21,21,22,22,22,22,22,22,23,23,23,23,23,23,24,24,24,24,24,24,24,25,25,25,25,25,25,25,25,25,26,26,26,26,26,26,26,26,27,27,27,27,27,27,27,27,27,28,28,28,28,28,28,28,28,28,29,29,29,29,29,29,29,29,29,29,30,30,30,30,30,30,30,30,30,30,31,31,31,31,31,31,31,31,31,31,31,31)
+
+data2 = data.frame(
+  
+  y = c(1,2,3,4,5,6,7,7,7,8,9,9,10,11,12,13,14,15,16,16,17,18,18,18,19,19,19,19,19,20,20,20,21,21,21,21,21,22,22,22,22,22,22,23,23,23,23,23,23,24,24,24,24,24,24,24,25,25,25,25,25,25,25,25,25,26,26,26,26,26,26,26,26,27,27,27,27,27,27,27,27,27,28,28,28,28,28,28,28,28,28,29,29,29,29,29,29,29,29,29,29,30,30,30,30,30,30,30,30,30,30,31,31,31,31,31,31,31,31,31,31,31,31),
+  x = c(1: length(y))
+)
+
+```
+
+
+```{r}
+ggplot(data2, aes(x=x, y=y)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
+```
+
+
+####Does the curve flatten out? If so, after how many individual cells have been collected?
+
+The curve does not flatten out completely, however, the slope decreases strongly after 20 observed species
+
+####What can you conclude from the shape of your collector’s curve as to your depth of sampling?
+
+From the shape of the collectors curve, there would be more species expected to be discovered if the sample was bigger
+
+#### Part 3
+
+```{r}
+sum_occurence = sum (data1 %>% 
+  select(occurences))
+
+spec_occurence = c()
+for (i in 1:32) {
+  spec_occurence[i] = data1 %>%
+            filter(number == i) %>%
+              select(occurences)
+}
+spec_occurence= unlist(spec_occurence)
+
+
+spec_occurence
+
+
+spec_p =c()
+for (i in 1: 32){
+  spec_p[i] = spec_occurence[i] / sum_occurence 
+}
+
+spec_p2= spec_p^2
+
+D= 1 / sum(spec_p2)
+D
+```
+
+-> The Simpson Reciprocal Index for the total community is 22.187
+```{r}
+data_sample = data.frame(
+  number = c(1:32),
+  name = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue" ),
+  characteristics = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue"),
+  occurences = c(8,7,6,2,9,1,7,7,5,2,5,2,2,2,1,5,2,5,4,5,11,7,1,6,1,1,2,2,3,1,2,0)
+)
+
+sample3=c(8,7,6,2,9,1,7,7,5,2,5,2,2,2,1,5,2,5,4,5,11,7,1,6,1,1,2,2,3,1,2,0)
+sum3=sum(sample3)
+spec_p3 =c()
+for (i in 1: 32){
+  spec_p3[i] = sample3[i] / sum3
+}
+
+spec_p3= spec_p3^2
+
+D= 1 / sum(spec_p3)
+D
+```
+
+-> The Simpson Reciprocal Index for my sample is 21.179
+
+```{r}
+schao_tot = 32 + 0
+schao_tot
+
+schao_sample= 31 + (6^2 / (2*25))
+schao_sample
+```
+
+chao1 for the total community is 32  
+chao1 for the sample is 31.72
+
+#### Part4
+
+```{r}
+data1_diversity = 
+  data1 %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+data1_diversity
+
+diversity(data1_diversity, index="invsimpson")
+specpool(data1_diversity)
+
+datasample_diversity = 
+  data_sample %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+diversity(datasample_diversity, index="invsimpson")
+specpool(datasample_diversity)
+```
+
+-> Simpson index for total community: 22.187  
+-> Simpson index for my sample: 21.179  
+-> Chao1 for total community: 32  
+-> Chao1 for my sample: 31  
+
+-> Values match previous calculations  
+
+#### Part 5
+##### How does the measure of diversity depend on the definition of species in your samples?
+
+If we assign more CFUs to the same species, we end up with less different species and therefore less diversity. 
+Or, if different species definitions lead to the same number of species, but with different abundance-proportions amongst the species, the diversity might again be different.
+
+#### Can you think of alternative ways to cluster or bin your data that might change the observed number of species?
+
+We could have sorted the candies just by color, regardless of their shape, brand.  
+Another alternative would have been to ignore the color and sort the candies only by the shape, type (e.g. assign all m&m's to the same species and all skittels to another one..)
+
+#### How might different sequencing technologies influence observed diversity in a sample?
+
+The observed diversity might be overestimated, if a more error-prone sequencing method is applied. More errors in base calling leads to higher diversity in sequences, leading to a higher number of estimated species.  
+Second generation sequencing often has higher error rates and produces shorter reads than sanger sequencing. 
+This leads to overestimated diversity, especially when reads with unresolved bases or abnormal read lenghts are removed from the data.[Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865)
+
+### Evidence Worksheet 05
+
+[Welch et al. 2002]( http://www.pnas.org/content/99/26/17020)
+
+#### What were the main questions being asked?
+
+-	How the genomes of different E. coli strains are composed.  
+-	How the different genome compositions and structures can explain pathogenicity of different E. coli strains.    
+-	How the genome structure can be used to understand to evolutionary history of E. coli.    
+
+#### What were the primary methodological approaches used?
+
+-	Genome sequence of uropathogenic E. coli strain CFT073 compared to enterohemorrhagic strain EDL933 and nonpathogenic lab strain MG1655.    
+-	CFT073 was isolated from a woman with acute pyelonephritis and subsequently sequenced by generating whole-genome libraries.    
+-	The genome sequence was analyzed using MAGPIE. Homologs in EDL933 and MG1655 of the potential CFT073 genes were searched using BLAST. Orthology was assumed when matches reached a threshold of 90% identity with at least 90% of the genes covered in an alignment.    
+
+#### Summarize the main results or findings. 
+
+-	The CFT073 genome of 5.2 Mb was successfully sequenced.    
+-	Several features of the genome could be identified:  
+    -	A restriction map was generated to confirm the circular structure of the genome.  
+    - The Origin and terminus of the CFT073 genome corresponds to those of the MG1655 strain  
+    - The genome contains no plasmids  
+    - 5.533 coding genes were detected  
+    - 247 CFT073-specific islands found with 2004 genes, 60 unique segments for virulence genes  
+        - The specific islands account for 1.303 Mb, whereas MG1655 contains only 716 kb that are specific for this strain.  
+-	Codon usage of islands was found to be different from the backbone genes, which is an indicator of lateral gene transfer.  
+    - The backbone codon usage from CFT073 does not differ from the backbones of the other two strains. But the specific islands have different codon usage amongst the three strains.  
+    - A Mosaic genome structure is generated where newly acquired genes are grouped together.  
+    - CFT073 misses type III secretion system and plasmid encoded virulence genes, which explains differences in disease potential from EDL933.  
+-	The CFT073 specific virulence genes contain fimbrial adhesins, autotransporters and phase switch recombinases.  
+-	The chromosomal location and order of the pathogenicity genes differ from other uropathogenic strains.  
+-	One CFT073 island contains part of a pathogenicity island from Yersinia pestis, suggesting the introduction of this island in the early evolution of extra intestinal E. coli.  
+-	Many CFT073 islands are needed for the ability to colonyze the urinary tract:  
+    - Fimbriae, pili for attachment to host cells.  
+    - Phase switch recombinases that control the expression of fimbriae encoded on the fim operon.  
+    - Autotransporters that export virulence factors  
+    - Hemolysin genes that encode cytolytic toxins and their secretion system.  
+-	Numbers of proteins shared between CFT073, DEL933 and MG1655: 2996  
+-	Numbers of proteins shared between CFT073 and DEL933: 204  
+-	Numbers of proteins shared between CFT073 and MG1655: 193  
+-	Numbers of proteins shared between DEL933 and MG1655: 514  
+-	Proteins specific for CFT073: 1623  
+-	Proteins specific for EDL933: 1346  
+-	Proteins specific for MG1655: 585  
+
+Conclusion:  
+
+-	E. coli genomes show a mosaic structure with conserved backbones and strand specific islands.  
+-	Uropathogenic stains show bigger genetic differences to other strains than previously assumed.  
+-	Uropathogenic or intestinal pathogenic strains acquired specific pathogenicity islands witch made them able to colonyze the host’s organs.  
+-	Each strain contains different specific islands with strong variation in their linkage and chromosomal arrangement, which gives the strains their characteristic traits.  
+
+
+#### Do new questions arise from the results?
+
+-	The results suggest that extraintestinal strains might be as diverse as the intestinal strains. This remains to be verified.  
+-	Whether specific gene subsets can be found that can be used to differentiate between uropathogenic strains.  
+-	Whether new genetic regions can be found that are subject to variation due to recombinase activities.  
+-	Whether “black holes” can be found in CFT073: Deletions of genes that would lead to disadvantages in the specific lifestyle of uropathogens.  
+-	The presence of huge amounts of specific islands raises the question, whether species definitions based on only a few phenotypic traits and low-resolution mapping should be reconsidered  
+
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+
+In general, the paper was simple to follow, with reasonable assumptions and conclusions.
+However, the methods how they analyzed and compared the genomes were not explained very detailed. More detailed description of their methods would have been helpful for better understanding of the obtained results.
+
+#### Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.
+
+![](C:\Users\Lukas\Documents\MICB425_portfolio\ev_w_05.JPG)
+
+An Ecotype is a bacterial species that occupies a specific ecological niche. Different ecotypes can live in the same habitat but do not compete for the same nutrients/ environmental factors and therefore obtain different niches, which allows them to evolve independently from each other. In the human body for example, several different bacteria can live in the gut but rely on different carbon sources/ factors and therefore are different ecotypes. They can also have differences in their exact localization within the gut, eg in the microvilli/ gut lumen/ cryptae..
+
+The figure shows that the different strains have different genes (or gene islands) in their genomes. The differences in the genes can be explained by the different niches/ habitats within the human that these two strains occupy. The colonization of the urinal tract requires some different genes than the colonization of the gut. Different genes are needed to colonize the urethra and to metabolize the present nutrients than to colonize and live in the gut. 
+
+The genes that are specific for a distinct niche are mainly inherited vertically to conserve the separation of the different ecotypes. The vertical inheritance of the specific genes (gene islands) conserves the ability of the strains to colonize their specific habitats. If horizontal gene transfer occurs between cells from different ecotypes, a switch in the ecotype of the recipient cell occur, leading to the occupation of a new niche for this ecotype.
+
+
+

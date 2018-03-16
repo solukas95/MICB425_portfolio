@@ -1,0 +1,141 @@
+### Problem set 04
+
+library(kableExtra)
+library(knitr)
+library(tidyverse)
+library(vegan)
+#### Part 1
+data1 = data.frame(
+  number = c(1:32),
+  name = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue" ),
+  characteristics = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue"),
+  occurences = c(28,28,60,44,30,63,39,33,42,35,23,15,16,18,15,19,16,39,36,27,32,40,14,4,5,3,5,7,16,7,5,4)
+)
+
+data1 %>% 
+  kable("html") %>%
+  kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
+
+##### Ask yourself if your collection of microbial cells from seawater represents the actual diversity of microorganisms inhabiting waters along the Line-P transect. Were the majority of different species sampled or were many missed?
+There might be many species missed, as we only have 32 different species
+
+#### Part 2
+y = c(1,2,3,4,5,6,7,7,7,8,9,9,10,11,12,13,14,15,16,16,17,18,18,18,19,19,19,19,19,19,19,19,19,20,20,20,21,21,21,21,21,21,21,21,21,21,22,22,22,22,22,22,23,23,23,23,23,24,24,24,24,24,24,25,25,25,25,25,25,25,25,25,26,26,26,26,26,26,27,27,27,27,27,27,27,28,28,28,28,28,28,28,29,29,29,29,29,29,29,29,29,29,30,30,30,30,30,30,30,30,30,30,31,31,31,31,31,31,31,31,31,31,31,31)
+
+data2 = data.frame(
+  
+  y = c(1,2,3,4,5,6,7,7,7,8,9,9,10,11,12,13,14,15,16,16,17,18,18,18,19,19,19,19,19,19,19,19,19,20,20,20,21,21,21,21,21,21,21,21,21,21,22,22,22,22,22,22,23,23,23,23,23,24,24,24,24,24,24,25,25,25,25,25,25,25,25,25,26,26,26,26,26,26,27,27,27,27,27,27,27,28,28,28,28,28,28,28,29,29,29,29,29,29,29,29,29,29,30,30,30,30,30,30,30,30,30,30,31,31,31,31,31,31,31,31,31,31,31,31),
+  x = c(1: length(y))
+)
+
+
+
+ggplot(data2, aes(x=x, y=y)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
+
+
+
+#####Does the curve flatten out? If so, after how many individual cells have been collected?
+The curve does not flatten out completely, however, the slope decreases strongly after 20 observed species
+
+#####What can you conclude from the shape of your collector’s curve as to your depth of sampling?
+From the shape of the collectors curve, there would be more species expected to be discovered if the sample was bigger
+
+#### Part 3
+sum_occurence = sum (data1 %>% 
+  select(occurences))
+
+spec_occurence = c()
+for (i in 1:32) {
+  spec_occurence[i] = data1 %>%
+            filter(number == i) %>%
+              select(occurences)
+}
+spec_occurence= unlist(spec_occurence)
+
+
+spec_occurence
+
+
+spec_p =c()
+for (i in 1: 32){
+  spec_p[i] = spec_occurence[i] / sum_occurence 
+}
+
+spec_p2= spec_p^2
+
+D= 1 / sum(spec_p2)
+D
+
+-> The Simpson Reciprocal Index for the total community is 22.187
+
+data_sample = data.frame(
+  number = c(1:32),
+  name = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue" ),
+  characteristics = c("m&m green", "m&m red", "m&m blue", "m&m yellow", "m&m brown", "m&m orange", "skittle brown", "skittle red", "skittle green", "skittle orange", "skittle yellow", "bear red", "bear pink", "bear green", "bear orange", "bear yellow", "bear white", "m&i pink", "m&i green", "m&i yellow", "m&i orange", "m&i red", "worms red", "balls yellow", "balls green", "balls purple", "balls orange", "balls red", "chocolate kiss", "lego pink", "lego yellow", "lego blue"),
+  occurences = c(8,7,6,2,9,1,7,7,5,2,5,2,2,2,1,5,2,5,4,5,11,7,1,6,1,1,2,2,3,1,2,0)
+)
+
+sample3=c(8,7,6,2,9,1,7,7,5,2,5,2,2,2,1,5,2,5,4,5,11,7,1,6,1,1,2,2,3,1,2,0)
+sum3=sum(sample3)
+spec_p3 =c()
+for (i in 1: 32){
+  spec_p3[i] = sample3[i] / sum3
+}
+
+spec_p3= spec_p3^2
+
+D= 1 / sum(spec_p3)
+D
+
+-> The Simpson Reciprocal Index for my sample is 21.179
+
+schao_tot = 32 + 0
+schao_tot
+
+schao_sample= 31 + (6^2 / (2*25))
+schao_sample
+
+chao1 for the total community is 32
+chao1 for the sample is 31.72
+#### Part 4
+
+data1_diversity = 
+  data1 %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+data1_diversity
+
+diversity(data1_diversity, index="invsimpson")
+specpool(data1_diversity)
+
+datasample_diversity = 
+  data_sample %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+diversity(datasample_diversity, index="invsimpson")
+specpool(datasample_diversity)
+
+-> simpson index for total community: 22.187
+-> simpson index for my sample: 21.179
+-> chao1 for total community: 32
+-> chao1 for my sample: 31
+
+-> values match previous calculations
+
+#### Part 5
+##### How does the measure of diversity depend on the definition of species in your samples?
+If we assign more CFUs to the same species, we end up with less different species and therefore less diversity. 
+Or if different species definitions lead to the same number of species, but with different abundance-proportions amongst the species, the diversity might again be different.
+
+##### Can you think of alternative ways to cluster or bin your data that might change the observed number of species?
+We could have sorted the candies just by color, or assigned all skittles to the same species, regardless of their color.
+
+##### How might different sequencing technologies influence observed diversity in a sample?
+The observed diversity might be overestimated, if a more error-prone sequencing method is applied. More errors in base calling leads to higher diversity in sequences, leading to a higher number of estimated species.  
+Second generation sequencing often has higher error rates and produces shorter reads than sanger sequencing. 
+This leads to overestimated diversity, especially when reads with unresolved bases or abnormal read lenghts are removed from the data.[Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865)

@@ -44,3 +44,5 @@ ggplot(faceted, aes(x=Depth_m, y=uM))+
   geom_point()+
   facet_wrap(~Nutrient, scales="free_y") +
   theme(legend.position="none")
+
+

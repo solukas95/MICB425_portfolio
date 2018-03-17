@@ -142,14 +142,10 @@ ggplot(metadata, aes(x=NO3_uM, y=Depth_m)) +
 
 ####Exercise 2
 ```{r}
-metadata %>% 
-  select(matches("temp"))
+
 metadata2 = metadata %>%
   mutate(Temperature_F = Temperature_C *9/5 +32) 
 
-
-metadata2 %>%
-  select(Temperature_F)
 
 ggplot(metadata2, aes(x=Temperature_F, y=Depth_m)) +
   geom_point(shape=19, color = "purple")
@@ -680,7 +676,7 @@ The Review mostly showed very well, on what data/assumptions/estimations their r
 Further, it is not always clear, how exact the obtained values for concentrations/ temperatures etc are. Especially for the estimations of the values for earlier points in time, some more information about error rates would have been useful.   
 
 
-### Module 1 assay
+### Module 1 essay
 
 
 "Microbial life can easily live without us; we, however, cannot survive without the global
@@ -735,6 +731,24 @@ Nisbet, E. G., and N. H. Sleep. 2001. 'The habitat and nature of early life', Na
 Waters, Colin N., Jan Zalasiewicz, Colin Summerhayes, Anthony D. Barnosky, Clément Poirier, Agnieszka Gałuszka,  
 Alejandro Cearreta, Matt Edgeworth, Erle C. Ellis, Michael Ellis, Catherine Jeandel, Reinhold Leinfelder, J. R. McNeill, Daniel deB. Richter, Will Steffen, James Syvitski, Davor Vidas, Michael Wagreich, Mark Williams, An Zhisheng, Jacques Grinevald, Eric Odada, Naomi Oreskes, and Alexander P. Wolfe. 2016. 'The Anthropocene is functionally and stratigraphically distinct from the Holocene', Science, 351.  
 [Waters et al. 2016](http://science.sciencemag.org/content/351/6269/aad2622)
+
+[The Washington Post, 12-01-03, 'Spaceship Earth: A new view of envrionmentalism](https://www.washingtonpost.com/national/health-science/spacesh/)
+
+[Canfield et al. 2010](http://science.sciencemag.org/content/330/6001/192)
+
+A. Leopold, 1949, 'The Land Ethic', from 'A Sand County Almanac'
+
+[Rockstrom et al. 2009](https://www.nature.com/articles/461472a)
+
+D. P. Schrag, 2012, 'Geobiology of the Anthropocene'
+
+Zehnder, 1988, 'Biology of anaerobic microorganisms', chapter 1
+
+
+
+
+
+
 
 # Module 2
 ### Problem set 03
@@ -1246,4 +1260,16 @@ The figure shows that the different strains have different genes (or gene island
 The genes that are specific for a distinct niche are mainly inherited vertically to conserve the separation of the different ecotypes. The vertical inheritance of the specific genes (gene islands) conserves the ability of the strains to colonize their specific habitats. If horizontal gene transfer occurs between cells from different ecotypes, a switch in the ecotype of the recipient cell occur, leading to the occupation of a new niche for this ecotype.
 
 
+
+
+### Module 3 References
+
+[Welch et al. 2002]( http://www.pnas.org/content/99/26/17020)  
+[Callahan et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28731476)  
+[Gaudet et al. 2010](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015821)  
+[Hallam et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/29087370)  
+[Hawley et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/29087368)  
+[Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865)  
+[Sogin et al. 2006](http://www.pnas.org/content/103/32/12115)  
+[Torres_Beltràn et al. 2017](https://www.nature.com/articles/sdata2017159)  
 

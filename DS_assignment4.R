@@ -14,14 +14,11 @@ ggplot(metadata, aes(x=NO3_uM, y=Depth_m)) +
   geom_point(shape=17, color = "purple")
 
 #ex2
-metadata %>% 
-  select(matches("temp"))
+
 metadata2 = metadata %>%
   mutate(Temperature_F = Temperature_C *9/5 +32) 
 
 
-metadata2 %>%
-  select(Temperature_F)
 
 ggplot(metadata2, aes(x=Temperature_F, y=Depth_m)) +
   geom_point(shape=19, color = "purple")

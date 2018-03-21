@@ -1190,6 +1190,7 @@ This leads to overestimated diversity, especially when reads with unresolved bas
 -	How the genomes of different E. coli strains are composed.  
 -	How the different genome compositions and structures can explain pathogenicity of different E. coli strains.    
 -	How the genome structure can be used to understand to evolutionary history of E. coli.    
+- ->Find differences between the three very similar strains.
 
 #### What were the primary methodological approaches used?
 
@@ -1219,13 +1220,13 @@ This leads to overestimated diversity, especially when reads with unresolved bas
     - Phase switch recombinases that control the expression of fimbriae encoded on the fim operon.  
     - Autotransporters that export virulence factors  
     - Hemolysin genes that encode cytolytic toxins and their secretion system.  
--	Numbers of proteins shared between CFT073, DEL933 and MG1655: 2996  
--	Numbers of proteins shared between CFT073 and DEL933: 204  
--	Numbers of proteins shared between CFT073 and MG1655: 193  
--	Numbers of proteins shared between DEL933 and MG1655: 514  
--	Proteins specific for CFT073: 1623  
--	Proteins specific for EDL933: 1346  
--	Proteins specific for MG1655: 585  
+-	Numbers of proteins shared between CFT073, DEL933 and MG1655: 2996 (39.2%)   
+-	Numbers of proteins shared between CFT073 and DEL933: 204 (2.6%)  
+-	Numbers of proteins shared between CFT073 and MG1655: 193 (2.5%)    
+-	Numbers of proteins shared between DEL933 and MG1655: 514 (6.7%)    
+-	Proteins specific for CFT073: 1623 (21.2%)   
+-	Proteins specific for EDL933: 1346 (17.6%)    
+-	Proteins specific for MG1655: 585 (7.6%)    
 
 Conclusion:  
 
@@ -1253,9 +1254,11 @@ However, the methods how they analyzed and compared the genomes were not explain
 
 ![](C:\Users\Lukas\Documents\MICB425_portfolio\ev_w_05.JPG)
 
-An Ecotype is a bacterial species that occupies a specific ecological niche. Different ecotypes can live in the same habitat but do not compete for the same nutrients/ environmental factors and therefore obtain different niches, which allows them to evolve independently from each other. In the human body for example, several different bacteria can live in the gut but rely on different carbon sources/ factors and therefore are different ecotypes. They can also have differences in their exact localization within the gut, eg in the microvilli/ gut lumen/ cryptae..
+An Ecotype is a bacterial species that occupies a specific ecological niche. Different ecotypes can live in the same habitat but do not compete for the same nutrients/ environmental factors and therefore obtain different niches, which allows them to evolve independently from each other. In the human body for example, several different bacteria can live in the gut but rely on different carbon sources/ factors and therefore are different ecotypes. They can also have differences in their exact localization within the gut, eg in the microvilli/ gut lumen/ cryptae.. Different ecotypes can have very identical 16s RNA sequences but differ significantly in genetic islands specific for the niche they occupy.
 
-The figure shows that the different strains have different genes (or gene islands) in their genomes. The differences in the genes can be explained by the different niches/ habitats within the human that these two strains occupy. The colonization of the urinal tract requires some different genes than the colonization of the gut. Different genes are needed to colonize the urethra and to metabolize the present nutrients than to colonize and live in the gut. 
+The figure shows that the different strains have different genetic islands in their genomes. The differences in the islands can be explained by the different niches/ habitats within the human that these two strains occupy. The colonization of the urinary tract requires some different genes than the colonization of the gut. Different genes are needed to colonize the urethra and to metabolize the present nutrients than to colonize and live in the gut. 
+The figure also shows that the specific islands are localized on a shared backbone of the different strains.  
+
 
 The genes that are specific for a distinct niche are mainly inherited vertically to conserve the separation of the different ecotypes. The vertical inheritance of the specific genes (gene islands) conserves the ability of the strains to colonize their specific habitats. If horizontal gene transfer occurs between cells from different ecotypes, a switch in the ecotype of the recipient cell occur, leading to the occupation of a new niche for this ecotype.
 

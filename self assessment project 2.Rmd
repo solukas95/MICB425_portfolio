@@ -1,0 +1,69 @@
+---
+title: "Project 2 self-assessment"
+author: "Lukas Sonderegger 49057870"
+date: "13 April 2018"
+output: html_document
+---
+
+## Abstract
+
+
+### Writing  
+
+Proofreading  
+
+### Editing
+
+
+## Introduction
+
+### Literature research
+
+### Writing  
+
+Proofreading
+
+### Editing
+
+
+## Methods
+
+
+### Writing   
+
+Proofreading
+
+### Editing
+
+
+## Results
+
+### Anaysis 
+
+Analysed the generated plots, explained their meanings.
+
+### Figures  
+
+Helped to generate plots that are meaningfull. -Provided ideas of what plots we need  
+
+### Writing  
+
+Proofreading  
+Pointed out mistakes in interpretations of the results
+
+### Editing
+
+
+## Discussion
+### Literature research  
+
+Performed research for my part of the discussion
+
+### Writing  
+
+Wrote half of the discussion, answered first question (•	Frame your gene of interest’s results within a broader discussion of denitrifcation (last day of class))  
+
+Wrote future directions.  
+Proofreading of second part.
+
+### Editing

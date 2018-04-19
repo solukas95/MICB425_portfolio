@@ -143,18 +143,15 @@ ggplot(metadata, aes(x=NO3_uM, y=Depth_m)) +
 ####Exercise 2
 ```{r}
 
-metadata2 = metadata %>%
-  mutate(Temperature_F = Temperature_C *9/5 +32) 
-
-
-ggplot(metadata2, aes(x=Temperature_F, y=Depth_m)) +
+ggplot(metadata %>%
+         mutate(Temperature_F = Temperature_C *9/5 +32), aes(x=Temperature_F, y=Depth_m)) +
   geom_point(shape=19, color = "purple")
 ```
 
 ####Exercise 3
 ```{r}
-physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
-plot_bar(physeq_percent, fill="Domain") + 
+
+plot_bar(transform_sample_counts(physeq, function(x) 100 * x/sum(x)), fill="Domain") + 
   geom_bar(aes(fill=Domain), stat="identity") +
   labs(title="Domains from 10 to 200m in Saanich Inlet", x = "Sample depth", y = "Percent relative anbundance")
 ```
@@ -162,14 +159,14 @@ plot_bar(physeq_percent, fill="Domain") +
 ####Exercise 4
 
 ```{r}
-faceted = gather(metadata, key = "Nutrient", value = "uM", NH4_uM, NO2_uM, NO3_uM, O2_uM, PO4_uM, SiO2_uM)
 
-ggplot(faceted, aes(x=Depth_m, y=uM))+
+
+ggplot(gather(metadata, key = "Nutrient", value = "uM", NH4_uM, NO2_uM, NO3_uM, O2_uM, PO4_uM, SiO2_uM), aes(x=Depth_m, y=uM))+
   geom_line()+
   geom_point()+
   facet_wrap(~Nutrient, scales="free_y") +
   theme(legend.position="none")
-  
+
 ```
 
 ## Origins and Earth Systems
@@ -1004,14 +1001,31 @@ The paper was very well written and understandable, with clear explanations of m
 
 ### Module 2 References
 
+Wooley JC, Godzik A, Friedberg I (2010) A Primer on Metagenomics. PLoS Comput Biol 6(2): e1000667. https://doi.org/10.1371/journal.pcbi.1000667  
 [Wooley et al. 2010](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000667)  
+
+Madsen, E.L., Identifying microorganisms responsible for ecologically significant biogeochemical processes. Nature Reviews Microbiology, 2005. 3: p. 439.  
 [Madsen et al. 2005](https://www.ncbi.nlm.nih.gov/pubmed/15864265)  
+
+Pace, N.R., A molecular view of microbial diversity and the biosphere. Science, 1997. 276(5313): p. 734-40.  
 [Pace et al. 1997](https://www.ncbi.nlm.nih.gov/pubmed/9115194)  
+
+DeLong, E.F. and N.R. Pace, Environmental diversity of bacteria and archaea. Syst Biol, 2001. 50(4): p. 470-8  
 [DeLong et al. 2001](https://www.ncbi.nlm.nih.gov/pubmed/12116647)  
+
+Locey, K.J. and J.T. Lennon, Scaling laws predict global microbial diversity. Proceedings of the National Academy of Sciences, 2016. 113(21): p. 5970-5975  
 [Locey et al. 2016](http://www.pnas.org/content/113/21/5970)  
+
+Streit, W.R. and R.A. Schmitz, Metagenomics--the key to the uncultured microbes. Curr Opin Microbiol, 2004. 7(5): p. 492-8  
 [Streit et al 2004](https://www.ncbi.nlm.nih.gov/pubmed/15451504)  
+
+Oulas A, Pavloudi C, Polymenakou P, et al. Metagenomics: Tools and Insights for Analyzing Next-Generation Sequencing Data Derived from Biodiversity Studies. Bioinformatics and Biology Insights. 2015;9:75-88. doi:10.4137/BBI.S12462.  
 [Oulas et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4426941/)  
+
+Krause, L., et al., Phylogenetic classification of short environmental DNA fragments. Nucleic Acids Res, 2008. 36(7): p. 2230-9.  
 [Krause et al. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18285365)  
+
+Martinez, A. et al. “Proteorhodopsin Photosystem Gene Expression Enables Photophosphorylation in a Heterologous Host.” Proceedings of the National Academy of Sciences of the United States of America 104.13 (2007): 5590–5595. PMC. Web. 7 Apr. 2018.  
 [Martinez et al. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
 
 # Module 3
@@ -1262,17 +1276,69 @@ The figure also shows that the specific islands are localized on a shared backbo
 
 The genes that are specific for a distinct niche are mainly inherited vertically to conserve the separation of the different ecotypes. The vertical inheritance of the specific genes (gene islands) conserves the ability of the strains to colonize their specific habitats. If horizontal gene transfer occurs between cells from different ecotypes, a switch in the ecotype of the recipient cell occur, leading to the occupation of a new niche for this ecotype.
 
+### Module 3 essay
+
+Discuss the challenges involved in defining a microbial species and how HGT complicates matters, especially in the context of the evolution and phylogenetic distribution of microbial metabolic pathways. Can you comment on how HGT influences the maintenance of global biogeochemical cycles through time? Finally, do you think it is necessary to have a clear definition of a microbial species? Why or why not?
+
+
+
+How to decide for a clear definition of microbial species is an often-discussed issue. The biological species concept cannot be applied for microbes as they do not reproduce sexually. Many alternative concepts exist that use different approaches to define species. Each of these definitions has their own advantages and disadvantages, which makes it difficult to agree on one that fits the needs of all purposes. Some of the most important concepts will be discussed in more detail in this assay. At first, probably the most often applied concept is to assign two individuals to the same operational taxonomic unit (OTU) if their 16s rDNA shows more than 97% identity. A more recently developed method is to define species by amplicon sequence variants (ASV). This method has the potential of even higher resolution than the OTU definition as it defines an exact nucleotide sequence for each species. Another factor that makes species definitions even more challenging is horizontal gene transfer (HGT). This microbial version of “sexual” recombination leads to difficulties in many phylogenetic approaches. Through HGT, even distantly related species can harbor very similar DNA fragments. This allows for a global distribution and maintenance of key metabolic pathways but in turn also leads to a high potential for wrong species-assignments. One method to overcome the problems of HGT is multi-locus sequence analysis (MLSA). MLSA tries to eliminate genes acquired from horizontal transfer by comparing several conserved genes instead of just one, as the OTU and ASV methods do. Regarding all these challenges in species definition, the question arises whether it is even necessary to have a clear definition? In order to find an answer to this question, it is necessary to first obtain a deeper understanding of the present species definitions.  
+
+
+Defining microbial species by a 16s RNA identity of 97% or more has become the standard approach over the last years. This method has been shown to achieve well dissolved phylogenetic assignments in numerous cases. However, with increasing amounts of available data, several problems of this method could be identified. Firstly, as only the 16s rDNA is considered, a lot of variation might be missed. Two species can have completely different sequences in the main parts of their genomes, with just very similar 16s rDNA and thus get clustered together as the same species. Second, one species can have multiple copies of the 16s RNA gene. This means that we have to decide which of the copies we want to use for the species definition. In addition, if the sequence data comes from an unknown environmental sample, one might not even realize that the two 16s rDNA sequences come from the same genome and therefore assign them to two different species. Third, as more genomic data of very closely related species became available, the resolution of 16s rDNA turned out not to be sufficient anymore to separate these species. In these cases, the 16s rDNA shows too high levels of conservation to be sufficient for separation of very similar species. Another challenge that arises from this problem is the decision of how to differentiate between species and strains. This problem again could be the subject of a whole essay.  
+	
+	
+The more recent amplicon sequence variants (ASV) method has been shown to overcome some of the problems of the 97% rDNA identity OTU definition approach. This method does not rely on an arbitrarily chosen identity threshold, but instead defines species by one exact nucleotide sequence[1]. Therefore, this method provides higher resolution as it distinguishes sequences that even differ by just one nucleotide. However, this method too struggles with some challenges in species definition. In the process of defining one exact sequence to be the true one, many sequences which are assumed to contain sequencing errors have to be discarded. This means, that sequences which are more error-prone get discarded more often and might not be detected as species. In addition, this denoising step is very laborious and therefore requires a lot of capacity if big data sets have to be processed. Another problem is that if a wrong sequence is chosen as a species-defining ASV, the mistake immediately leads to an incorrectly defined species. One challenge the ASV method shares with the OTU method is, that it tries to define species by only one DNA locus. Thus, with ASV again, there is no guarantee that two species actually are the same or even closely related just because they have the same sequence in the observed amplicon.   
+	
+	
+The past two paragraphs show that the process of defining species can be very challenging. One factor that makes these definitions even more difficult is horizontal gene transfer (HGT). Many bacterial species can exchange some of their genes through HGT even if they are very distantly related. Therefore, individual genes within a single genome can have different evolutionary histories. This leads to varying phylogenetic trees and species assignments, depending on which genes are analyzed. For example, two species can have high similarity in 16s rDNA and other housekeeping genes, but still differ in great parts of their genomes, like specific pathogenicity islands[2]. Else, due to HGT, two species can be identical in most parts of their genomes, with differences in only a few very specific loci [3]. In both cases, 16s rDNA alone would not be sufficient to separate the ecotypes that share the same ribosomal DNA but have clear phenotypic or ecological differences in terms of the niches they occupy. A method to deal with the problem of HGT interfering with the definition of these ecotypes, is multi-locus sequence analysis (MLSA). In MLSA, several conserved housekeeping genes are concatenated and analyzed [4]. This method has two major positive properties. First, the interfering effects of HGT get eliminated, with increasing success, the more different genes are analyzed. Second, using multiple genes for sequence comparison, strongly increases the obtained resolution to distinguish species or ecotypes. Thus, the MLSA method is well worth considering as alternative to the single gene based methods which are more prone to get biased by HGT.   
+	
+	
+Because of horizontal gene transfer and following selective pressure, the genes for many key metabolic pathways get distributed all over the world in many different species. On one hand, this makes it difficult to generate phylogenetic trees and distinguish species, as discussed in the previous paragraph. But on the other hand, HGT assures the maintenance of global biogeochemical cycles, allowing the microbes to function as guardians of the metabolism [5]. Different environments with strong selective pressures favor the survival of only the best adapted microbes. Bacteria that fail to adapt fast enough to a changing environment go extinct. However, because of HGT, their specialized metabolic pathways often survive in another species in a different environment somewhere else on the planet. Thus, HGT ensures the maintenance of global biogeochemical cycles through time as it enables the distribution of key metabolic genes across species all over the world.  
+  
+  
+The massive amount of HGT plays an important role in the distribution of metabolic pathways and evolution of microbes. This extensive genomic fluidity strongly increases the challenges in defining microbial species and has led to some scientists questioning the existence of any microbial species [6]. But is it even necessary to have a clear definition of microbial species? Intuitively, one might think that a single, universal definition of microbial species would be very useful. Assigning an individual to a species would be much simpler if just one clear rule with a universal cutoff existed. Also, if two species are compared, one would immediately know the minimal level of genetic difference between the two species. However, despite these obvious and strong advantages of a clear definition, I think that it is important to allow for varying species definitions. An example from Fraser et al [7] illustrates this on three closely related bacterial species: Streptococcus pneumoniae, a human pathogen, S. mitis, a commensal and S. pseudopneumoniae, a species of uncertain status. Of these three species, S. mitis contains the highest genetic diversity of about 5%. This distance is about the same as the average distance between two genomes of S. pneumoniae and S. pseudopneumoniae. Therefore, applying a universal cutoff means that either S. pneumoniae and S. pseudopneumoniae had to be clustered together, or S. mitis would be split into many distinct species. This example clearly shows that one clear species definition with a defined cutoff is not only unnecessary, but even detrimental in many cases. Often, several context dependent aspects have to be considered in order to achieve satisfying clustering of microbes. For the generation of phylogenetic trees, varying phenotypical and ecological properties are arguably as important as genetic similarity. By considering only the 16s rDNA identity, many ecotypes would be missed in the analysis. Thus, it is often important to look at many different metabolic genes to be able to identify differences in ecotypes occupying different niches, despite their great genetic similarity.  
+  
+  
+In conclusion, the definition of microbial species encounters many challenges. Several approaches exist that try to sort species by a clearly defined threshold of genetic similarity in some single or multiple genes. Each of these methods has their own advantages and disadvantages and none can be clearly considered as the best one. A factor making species definitions even more complicated is HGT. Extensive gene exchanges distribute key genes all across the bacterial domain, leading to the maintenance of biogeochemical cycles by a globally shared core genome. This genome fluidity allows for fast bacterial evolution and adaptation, but in turn causes serious problems in the attempt of defining species. However, a clear species definition is not always necessary after all. Satisfying clustering of microbes often needs context dependent, varying definitions, considering also ecological aspects and many metabolic genes, not just similarity in the 16s rDNA. As a new approach, it might even be worth considering to completely give up on any universal species concepts. Instead, many different methods could be applied simultaneously, leading to several different, even overlapping clusters of taxa. Therefore, for each application, the best clustering method could be chosen to address the particular problem or question in an optimal way.
+
+
+####References  
+
+1.	Callahan, B.J., P.J. McMurdie, and S.P. Holmes, Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. ISME J, 2017. 11(12): p. 2639-2643.
+2.	Welch, R.A., et al., Extensive mosaic structure revealed by the complete genome sequence of uropathogenic <em>Escherichia coli</em>. Proceedings of the National Academy of Sciences, 2002. 99(26): p. 17020-17024.
+3.	Shapiro, B.J., et al., Population genomics of early events in the ecological differentiation of bacteria. Science, 2012. 336(6077): p. 48-51.
+4.	Glaeser, S.P. and P. Kampfer, Multilocus sequence analysis (MLSA) in prokaryotic taxonomy. Syst Appl Microbiol, 2015. 38(4): p. 237-45.
+5.	Falkowski, P.G., T. Fenchel, and E.F. Delong, The microbial engines that drive Earth's biogeochemical cycles. Science, 2008. 320(5879): p. 1034-9.
+6.	Riley, M.A. and M. Lizotte-Waniewski, Population Genomics and the Bacterial Species Concept. Methods in molecular biology (Clifton, N.J.), 2009. 532: p. 367-377.
+7.	Fraser, C., et al., The Bacterial Species Challenge: Making Sense of Genetic and Ecological Diversity. Science, 2009. 323(5915): p. 741-746.
+
 
 
 
 ### Module 3 References
 
+Welch, R.A., et al., Extensive mosaic structure revealed by the complete genome sequence of uropathogenic <em>Escherichia coli</em>. Proceedings of the National Academy of Sciences, 2002. 99(26): p. 17020-17024.  
 [Welch et al. 2002]( http://www.pnas.org/content/99/26/17020)  
+
+Callahan, B.J., P.J. McMurdie, and S.P. Holmes, Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. ISME J, 2017. 11(12): p. 2639-2643.  
 [Callahan et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28731476)  
+
+Gaudet, A.D., et al., Small-Group Learning in an Upper-Level University Biology Class Enhances Academic Performance and Student Attitudes Toward Group Work. PLOS ONE, 2011. 5(12): p. e15821.  
 [Gaudet et al. 2010](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015821)  
+
+Hallam, S.J., M. Torres-Beltran, and A.K. Hawley, Monitoring microbial responses to ocean deoxygenation in a model oxygen minimum zone. Sci Data, 2017. 4: p. 170158  
 [Hallam et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/29087370)  
+
+Hawley, A.K., et al., A compendium of multi-omic sequence information from the Saanich Inlet water column. Sci Data, 2017. 4: p. 170160  
 [Hawley et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/29087368)  
+
+Kunin, V., et al., Wrinkles in the rare biosphere: pyrosequencing errors can lead to artificial inflation of diversity estimates. Environ Microbiol, 2010. 12(1): p. 118-23  
 [Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865)  
+
+Sogin, M.L., et al., Microbial diversity in the deep sea and the underexplored “rare biosphere”. Proceedings of the National Academy of Sciences, 2006. 103(32): p. 12115-12120  
 [Sogin et al. 2006](http://www.pnas.org/content/103/32/12115)  
+
+Torres-Beltrán, M., et al., A compendium of geochemical information from the Saanich Inlet water column. Scientific Data, 2017. 4: p. 170159.
 [Torres_Beltràn et al. 2017](https://www.nature.com/articles/sdata2017159)  
 

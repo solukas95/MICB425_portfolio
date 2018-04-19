@@ -1,0 +1,75 @@
+---
+title: "Project 1 self-assessment"
+author: "Lukas Sonderegger 49057870"
+date: "13 April 2018"
+output: html_document
+---
+
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+## Abstract
+
+### Writing  
+Proofreading  
+
+### Editing
+
+
+## Introduction
+### Literature research
+
+### Writing
+Proofreading
+
+
+
+### Editing
+
+
+## Methods
+### Writing
+Proofreading
+
+
+
+### Editing  
+Contributed to processing of data using mothur and generation of plots for mothur method.
+Troubleshooting when code did not work/ discovered some errors leading to wrong p-values that did not match the data shown in figures.
+
+
+## Results
+### Anaysis   
+Interpreted the obtained results and plots and explained their meanings.  
+Analysed and compared p-values, significance of results.
+
+
+
+
+
+### Figures
+Generated plots of abundance of different taxa/OTUs across several nutrient gradients (NO3, NH3, NO2). (using mothur)
+
+### Writing  
+Proofreading   
+
+### Editing  
+Proofreading  
+
+
+## Discussion
+
+
+### Literature research
+Performed research for my part of discussion
+Provided references for my discussion part.    
+
+### Writing
+
+Wrote half of the discussion. Answered the first question (If you found significant differences for your taxon across depth/oxygen, why might these be occurring (hint think about the accompanying geochemical data we have)?)
+
+Proofreading of the second part of discussion
+
+### Editing  
+Edited my part after feedback.

@@ -167,5 +167,58 @@ m.perc %>%
   facet_wrap(~OTU, scales="free_y") +
   labs(title="Abundance of OTU1755 across NO2 conc..")
 
+m.meta.alpha %>%  
+  ggplot() +
+  geom_point(aes(x=Depth_m, y=NO2_uM)) +
+  
+  labs(title="NO2 across depth", y="NO2", x="Depth (m)") +
+  geom_line(aes(x=Depth_m, y=NO2_uM, colour="O2_uM")) +
+  geom_point(aes(x=Depth_m, y=NO2_uM, colour="O2_uM"))+
+
+  scale_colour_manual(values = c("blue", "red"))+
+  labs(title="NO2 across depth",  x = "Depth (m)" , colour = "Parameter") +
+  theme(legend.position = c(0.8, 0.9))
+
+faceted = gather(m.meta.alpha, key = "Nutrient", value = "uM", NH4_uM, NO2_uM, NO3_uM, O2_uM, PO4_uM, SiO2_uM)
+
+ggplot(faceted, aes(x=Depth_m, y=uM))+
+  geom_line()+
+  geom_point()+
+  facet_wrap(~Nutrient, scales="free_y") +
+  theme(legend.position="none")
+
 ####ASV
 load("~/MICB425_materials/Module_03/Project1/data/qiime2_phyloseq.RData")
+library(tidyverse)
+qiime2_taxa=data.frame(qiime2@tax_table)
+qiime2_otu=data.frame(qiime2@otu_table)
+qiime2_otu_t=t(qiime2_otu)
+qiime2_taxa_t=t(qiime2_taxa)
+qiime2_total=rbind(qiime2_otu_t, qiime2_taxa_t)
+qiime2_total_t=t(qiime2_total)
+qiime2_total_t2=data.frame(qiime2_total_t)
+qiime2_total_tax=qiime2_total_t2%>%filter(Genus== "D_5__Candidatus Scalindua")
+
+gp2 = subset_taxa(qiime2, Genus== "D_5__Candidatus Scalindua")
+plot_bar(gp2, fill="Genus")
+
+library("tidyverse")
+library("phyloseq")
+library("magrittr")
+load("qiime2_phyloseq.RData")
+
+#Setting seed for our group
+set.seed(9376)
+
+#Rarefying
+q.norm = rarefy_even_depth(qiime2, sample.size=100000)
+
+#Transforming to Abundance Perc.
+q.perc = transform_sample_counts(q.norm, function(x) 100 * x/sum(x))
+
+#estimating richness
+q.alpha = estimate_richness(q.norm, measures = c("Chao1", "Shannon"))
+
+#combining alpha diversity data with biogeochemical data
+q.meta.alpha = full_join(rownames_to_column(q.alpha), rownames_to_column(data.frame(m.perc@sam_data)), by = "rowname")
+

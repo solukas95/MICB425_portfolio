@@ -12,7 +12,7 @@ output: html_document
 
 Proofreading  
 
-### Editing
+
 
 
 ## Introduction
@@ -23,17 +23,17 @@ Proofreading
 
 Proofreading
 
-### Editing
-
 
 ## Methods
 
-
+ Helped generating plots.  
+ Troubleshooting in coding.
+ 
 ### Writing   
 
 Proofreading
 
-### Editing
+
 
 
 ## Results
@@ -44,14 +44,15 @@ Analysed the generated plots, explained their meanings.
 
 ### Figures  
 
-Helped to generate plots that are meaningfull. -Provided ideas of what plots we need  
+Helped to generate plots that are meaningfull.  
+-Provided ideas of what plots we need  
 
 ### Writing  
 
 Proofreading  
 Pointed out mistakes in interpretations of the results
 
-### Editing
+
 
 
 ## Discussion
@@ -61,9 +62,9 @@ Performed research for my part of the discussion
 
 ### Writing  
 
-Wrote half of the discussion, answered first question (•	Frame your gene of interest’s results within a broader discussion of denitrifcation (last day of class))  
+Wrote half of the discussion, answered first question (	Frame your gene of interest's results within a broader discussion of denitrifcation (last day of class))  
 
 Wrote future directions.  
 Proofreading of second part.
 
-### Editing
+

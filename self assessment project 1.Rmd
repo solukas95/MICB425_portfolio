@@ -14,7 +14,7 @@ Include **separate** completed versions of this document for Project 1 **and** P
 ### Writing  
 Proofreading  
 
-### Editing
+
 
 
 ## Introduction
@@ -25,7 +25,6 @@ Proofreading
 
 
 
-### Editing
 
 
 ## Methods
@@ -62,7 +61,7 @@ Proofreading
 
 
 ### Literature research
-Performed research for my part of discussion
+Performed research for my part of discussion.  
 Provided references for my discussion part.    
 
 ### Writing
